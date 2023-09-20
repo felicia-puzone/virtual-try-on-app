@@ -6,7 +6,7 @@ import torch.nn.functional as F
 import argparse
 import os
 import time
-from cp_dataset_modified import CPDataset, CPDataLoader
+from cp_dataset import CPDataset, CPDataLoader
 from networks import GMM, UnetGenerator, load_checkpoint
 
 from tensorboardX import SummaryWriter
