@@ -156,6 +156,7 @@ class CPDataset(data.Dataset):
                     (parse_array == DressCode_labelmap_g[5]).astype(np.float32) #Added upperbody to the reserved regions
 
         else:
+          if self.dress_type == 'upper':
             parse_head = (parse_array == DressCode_labelmap_g[1]).astype(np.float32) + \
                 (parse_array == DressCode_labelmap_g[2]).astype(np.float32) + \
                 (parse_array == DressCode_labelmap_g[4]).astype(np.float32) + \
@@ -167,6 +168,16 @@ class CPDataset(data.Dataset):
                 (parse_array == DressCode_labelmap_g[19]).astype(np.float32) + \
                 (parse_array == DressCode_labelmap_g[21]).astype(np.float32) + \
                 (parse_array == DressCode_labelmap_g[22]).astype(np.float32)
+
+          if self.dress_type == 'dresses':
+            parse_head = (parse_array == DressCode_labelmap_g[1]).astype(np.float32) + \
+                (parse_array == DressCode_labelmap_g[2]).astype(np.float32) + \
+                (parse_array == DressCode_labelmap_g[4]).astype(np.float32) + \
+                (parse_array == DressCode_labelmap_g[13]).astype(np.float32) + \
+                (parse_array == DressCode_labelmap_g[18]).astype(np.float32) + \
+                (parse_array == DressCode_labelmap_g[19]).astype(np.float32) + \
+                (parse_array == DressCode_labelmap_g[21]).astype(np.float32) + \
+                (parse_array == DressCode_labelmap_g[22]).astype(np.float32)            
 
  # CV13 fix: added left-shoes and right shoes to reserved regions
 

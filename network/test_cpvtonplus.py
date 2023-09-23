@@ -6,7 +6,7 @@ import torch.nn.functional as F
 import argparse
 import os
 import time
-from cp_dataset import CPDataset, CPDataLoader
+from cp_dataset_modified import CPDataset, CPDataLoader
 from networks_old import GMM, UnetGenerator, load_checkpoint
 
 from tensorboardX import SummaryWriter
@@ -167,12 +167,11 @@ def test_tom(opt, test_loader, model, board):
         cm = inputs['cloth_mask'].cuda()
 
         # outputs = model(torch.cat([agnostic, c], 1))  # CP-VTON
-        # outputs = model(torch.cat([agnostic, c, cm], 1))  # CP-VTON+
-        outputs, transAttFea = model(torch.cat([agnostic, c, cm], 1))  # mTrans_Tryon
+        outputs = model(torch.cat([agnostic, c, cm], 1))  # CP-VTON+
 
         p_rendered, m_composite = torch.split(outputs, 3, 1)
-        # p_rendered = F.tanh(p_rendered)
-        p_rendered = F.tanh(p_rendered) + p_rendered * F.sigmoid(transAttFea)
+        p_rendered = F.tanh(p_rendered)
+        
         m_composite = F.sigmoid(m_composite)
         p_tryon = c * m_composite + p_rendered * (1 - m_composite)
 
