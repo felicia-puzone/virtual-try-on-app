@@ -143,6 +143,12 @@ class CPDataset(data.Dataset):
                     (parse_array == DressCode_labelmap_g[13]).astype(
                         np.float32)  # CP-VTON+ GMM input (reserved regions)
 
+            if self.dress_type == 'dresses':
+                parse_head = (parse_array == DressCode_labelmap_g[1]).astype(np.float32) + \
+                    (parse_array == DressCode_labelmap_g[4]).astype(np.float32) + \
+                    (parse_array == DressCode_labelmap_g[13]).astype(
+                        np.float32) 
+
             if self.dress_type == 'lower':
                 parse_head = (parse_array == DressCode_labelmap_g[1]).astype(np.float32) + \
                     (parse_array == DressCode_labelmap_g[4]).astype(np.float32) + \
