@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.3)  16 SEP 2023 12:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.3)  7 OCT 2023 12:07
 entering extended mode
 **./main.tex
 (main.tex
@@ -844,31 +844,65 @@ LaTeX Info: Redefining \addtolength on input line 81.
 (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/outlines\outlines.sty
 Package: outlines 2012/1/23 1.1 Ch. Pecheur
 )
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithm.st
+y
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+ (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count314
+\float@exts=\toks45
+\float@box=\box66
+\@float@everytoks=\toks46
+\@floatcapt=\box67
+)
+\@float@every@algorithm=\toks47
+\c@algorithm=\count315
+)
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algpseudoc
+ode.sty
+Package: algpseudocode 
+
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algorithmi
+cx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count316
+\c@ALG@rem=\count317
+\c@ALG@nested=\count318
+\ALG@tlm=\skip71
+\ALG@thistlm=\skip72
+\c@ALG@Lnr=\count319
+\c@ALG@blocknr=\count320
+\c@ALG@storecount=\count321
+\c@ALG@tmpcounter=\count322
+\ALG@tmplength=\skip73
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count314
-\mult@box=\box66
+\c@tracingmulticols=\count323
+\mult@box=\box68
 \multicol@leftmargin=\dimen299
-\c@unbalance=\count315
-\c@collectmore=\count316
-\doublecol@number=\count317
-\multicoltolerance=\count318
-\multicolpretolerance=\count319
+\c@unbalance=\count324
+\c@collectmore=\count325
+\doublecol@number=\count326
+\multicoltolerance=\count327
+\multicolpretolerance=\count328
 \full@width=\dimen300
 \page@free=\dimen301
 \premulticols=\dimen302
 \postmulticols=\dimen303
-\multicolsep=\skip71
-\multicolbaselineskip=\skip72
-\partial@page=\box67
-\last@line=\box68
+\multicolsep=\skip74
+\multicolbaselineskip=\skip75
+\partial@page=\box69
+\last@line=\box70
 \maxbalancingoverflow=\dimen304
-\mult@rightbox=\box69
-\mult@grightbox=\box70
-\mult@gfirstbox=\box71
-\mult@firstbox=\box72
-\@tempa=\box73
-\@tempa=\box74
+\mult@rightbox=\box71
+\mult@grightbox=\box72
+\mult@gfirstbox=\box73
+\mult@firstbox=\box74
 \@tempa=\box75
 \@tempa=\box76
 \@tempa=\box77
@@ -904,50 +938,52 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box107
 \@tempa=\box108
 \@tempa=\box109
-\c@minrows=\count320
-\c@columnbadness=\count321
-\c@finalcolumnbadness=\count322
+\@tempa=\box110
+\@tempa=\box111
+\c@minrows=\count329
+\c@columnbadness=\count330
+\c@finalcolumnbadness=\count331
 \last@try=\dimen305
 \multicolovershoot=\dimen306
 \multicolundershoot=\dimen307
-\mult@nat@firstbox=\box110
-\colbreak@box=\box111
-\mc@col@check@num=\count323
+\mult@nat@firstbox=\box112
+\colbreak@box=\box113
+\mc@col@check@num=\count332
 )
 (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
+LaTeX Font Info:    ... okay on input line 67.
 
 (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count324
+\scratchcounter=\count333
 \scratchdimen=\dimen308
-\scratchbox=\box112
-\nofMPsegments=\count325
-\nofMParguments=\count326
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count327
+\scratchbox=\box114
+\nofMPsegments=\count334
+\nofMParguments=\count335
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count336
 \MPscratchDim=\dimen309
-\MPnumerator=\count328
-\makeMPintoPDFobject=\count329
-\everyMPtoPDFconversion=\toks46
+\MPnumerator=\count337
+\makeMPintoPDFobject=\count338
+\everyMPtoPDFconversion=\toks49
 )
 (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -956,9 +992,10 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 64.
+Package hyperref Info: Link coloring ON on input line 67.
 
 (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -970,11 +1007,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count330
+\c@section@level=\count339
 )
-LaTeX Info: Redefining \ref on input line 64.
-LaTeX Info: Redefining \pageref on input line 64.
-LaTeX Info: Redefining \nameref on input line 64.
+LaTeX Info: Redefining \ref on input line 67.
+LaTeX Info: Redefining \pageref on input line 67.
+LaTeX Info: Redefining \nameref on input line 67.
  (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -984,15 +1021,15 @@ LaTeX Info: Redefining \nameref on input line 64.
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 64.
+loading the todonotes package. on input line 67.
 
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 8
-1.
+4.
 (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 81.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 84.
 
 (abstract.tex) (sections/1_intro.tex (main.toc)
 \tf@toc=\write5
@@ -1001,91 +1038,6 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
  [1
 
 {C:/Users/martu/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 28.
-
-Overfull \hbox (10.23438pt too wide) in paragraph at lines 28--28
-[][][]\OT1/cmr/m/n/12 Questo 
- []
-
-
-Overfull \hbox (1.0303pt too wide) in paragraph at lines 28--28
-\OT1/cmr/m/n/12 para- 
- []
-
-
-Overfull \hbox (9.51633pt too wide) in paragraph at lines 28--28
-\OT1/cmr/m/n/12 temare[]  
- []
-
-
-Overfull \hbox (10.23438pt too wide) in paragraph at lines 28--28
-[][][]\OT1/cmr/m/n/12 Questo 
- []
-
-
-Overfull \hbox (1.0303pt too wide) in paragraph at lines 28--28
-\OT1/cmr/m/n/12 para- 
- []
-
-
-Overfull \hbox (9.51633pt too wide) in paragraph at lines 28--28
-\OT1/cmr/m/n/12 temare[]  
- []
-
-
-Overfull \hbox (1.09558pt too wide) in paragraph at lines 33--33
-\OT1/cmr/m/n/12 ences 
- []
-
-
-Overfull \hbox (1.68307pt too wide) in paragraph at lines 33--33
-\OT1/cmr/m/n/12 rette. 
- []
-
-
-Overfull \hbox (5.27332pt too wide) in paragraph at lines 33--33
-\OT1/cmr/m/n/12 mente 
- []
-
-
-Overfull \hbox (6.25247pt too wide) in paragraph at lines 33--33
-\OT1/cmr/m/n/12 taglio.[]  
- []
-
-
-Overfull \hbox (1.09558pt too wide) in paragraph at lines 33--33
-\OT1/cmr/m/n/12 ences 
- []
-
-
-Overfull \hbox (1.68307pt too wide) in paragraph at lines 33--33
-\OT1/cmr/m/n/12 rette. 
- []
-
-
-Overfull \hbox (5.27332pt too wide) in paragraph at lines 33--33
-\OT1/cmr/m/n/12 mente 
- []
-
-
-Overfull \hbox (6.25247pt too wide) in paragraph at lines 33--33
-\OT1/cmr/m/n/12 taglio.[]  
- []
-
-
-LaTeX Warning: Marginpar on page 2 moved.
-
-
-Overfull \hbox (29.8175pt too wide) in paragraph at lines 48--48
-[][][]\OT1/cmr/m/n/12 aggiustare, 
- []
-
-
-Overfull \hbox (29.8175pt too wide) in paragraph at lines 48--48
-[][][]\OT1/cmr/m/n/12 aggiustare, 
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1094,93 +1046,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[2]
-Overfull \hbox (12.78018pt too wide) in paragraph at lines 55--55
-[][][]\OT1/cmr/m/n/12 articolo 
- []
-
-
-Overfull \hbox (5.27332pt too wide) in paragraph at lines 55--55
-\OT1/cmr/m/n/12 chiara 
- []
-
-
-Overfull \hbox (10.1691pt too wide) in paragraph at lines 55--55
-\OT1/cmr/m/n/12 Stable- 
- []
-
-
-Overfull \hbox (20.18706pt too wide) in paragraph at lines 55--55
-\OT1/cmr/m/n/12 Diffusion[]  
- []
-
-
-Overfull \hbox (12.78018pt too wide) in paragraph at lines 55--55
-[][][]\OT1/cmr/m/n/12 articolo 
- []
-
-
-Overfull \hbox (5.27332pt too wide) in paragraph at lines 55--55
-\OT1/cmr/m/n/12 chiara 
- []
-
-
-Overfull \hbox (10.1691pt too wide) in paragraph at lines 55--55
-\OT1/cmr/m/n/12 Stable- 
- []
-
-
-Overfull \hbox (20.18706pt too wide) in paragraph at lines 55--55
-\OT1/cmr/m/n/12 Diffusion[]  
- []
-
-
-LaTeX Warning: Marginpar on page 3 moved.
-
-
-Overfull \hbox (5.5997pt too wide) in paragraph at lines 58--58
-[][][]\OT1/cmr/m/n/12 dovrei 
- []
-
-
-Overfull \hbox (1.74835pt too wide) in paragraph at lines 58--58
-\OT1/cmr/m/n/12 serire 
- []
-
-
-Overfull \hbox (12.78018pt too wide) in paragraph at lines 58--58
-\OT1/cmr/m/n/12 qualche 
- []
-
-
-Overfull \hbox (24.85645pt too wide) in paragraph at lines 58--58
-\OT1/cmr/m/n/12 citazione?[]  
- []
-
-
-Overfull \hbox (5.5997pt too wide) in paragraph at lines 58--58
-[][][]\OT1/cmr/m/n/12 dovrei 
- []
-
-
-Overfull \hbox (1.74835pt too wide) in paragraph at lines 58--58
-\OT1/cmr/m/n/12 serire 
- []
-
-
-Overfull \hbox (12.78018pt too wide) in paragraph at lines 58--58
-\OT1/cmr/m/n/12 qualche 
- []
-
-
-Overfull \hbox (24.85645pt too wide) in paragraph at lines 58--58
-\OT1/cmr/m/n/12 citazione?[]  
- []
-
-
-LaTeX Warning: Marginpar on page 3 moved.
-
-) (sections/2_dataset.tex) (sections/3_proposed_architecture.tex
+[2]) (sections/2_dataset.tex
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 30.
+) (sections/3_proposed_architecture.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1190,30 +1059,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3]
-<./images//general_pipeline.jpg, id=113, 2788.4175pt x 564.1075pt>
+<./images//general_pipeline.jpg, id=118, 2788.4175pt x 564.1075pt>
 File: ./images//general_pipeline.jpg Graphic file (type jpg)
 <use ./images//general_pipeline.jpg>
-Package pdftex.def Info: ./images//general_pipeline.jpg  used on input line 24.
+Package pdftex.def Info: ./images//general_pipeline.jpg  used on input line 25.
 
 (pdftex.def)             Requested size: 426.75414pt x 86.33398pt.
 
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[4 <./images//general_pipeline.jpg>]
-Overfull \hbox (11.53992pt too wide) in paragraph at lines 72--72
-[][][]\OT1/cmr/m/n/12 inserire 
- []
-
-
-Overfull \hbox (11.53992pt too wide) in paragraph at lines 72--72
-[][][]\OT1/cmr/m/n/12 inserire 
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1223,33 +1077,55 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[5]
-Overfull \hbox (11.53992pt too wide) in paragraph at lines 89--89
+[4]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5 <./images//general_pipeline.jpg>]
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 84.
+
+Overfull \hbox (11.53992pt too wide) in paragraph at lines 84--84
 [][][]\OT1/cmr/m/n/12 inserire 
  []
 
 
-Overfull \hbox (30.405pt too wide) in paragraph at lines 89--89
-\OT1/cmr/m/n/12 l'immagine 
- []
-
-
-Overfull \hbox (11.53992pt too wide) in paragraph at lines 89--89
+Overfull \hbox (11.53992pt too wide) in paragraph at lines 84--84
 [][][]\OT1/cmr/m/n/12 inserire 
  []
 
 
-Overfull \hbox (30.405pt too wide) in paragraph at lines 89--89
+Overfull \hbox (11.53992pt too wide) in paragraph at lines 101--101
+[][][]\OT1/cmr/m/n/12 inserire 
+ []
+
+
+Overfull \hbox (30.405pt too wide) in paragraph at lines 101--101
 \OT1/cmr/m/n/12 l'immagine 
  []
 
 
-Overfull \hbox (22.04953pt too wide) in paragraph at lines 92--92
+Overfull \hbox (11.53992pt too wide) in paragraph at lines 101--101
+[][][]\OT1/cmr/m/n/12 inserire 
+ []
+
+
+Overfull \hbox (30.405pt too wide) in paragraph at lines 101--101
+\OT1/cmr/m/n/12 l'immagine 
+ []
+
+
+Overfull \hbox (22.04953pt too wide) in paragraph at lines 104--104
 [][][]\OT1/cmr/m/n/12 sistemare 
  []
 
 
-Overfull \hbox (22.04953pt too wide) in paragraph at lines 92--92
+Overfull \hbox (22.04953pt too wide) in paragraph at lines 104--104
 [][][]\OT1/cmr/m/n/12 sistemare 
  []
 
@@ -1257,37 +1133,43 @@ Overfull \hbox (22.04953pt too wide) in paragraph at lines 92--92
 LaTeX Warning: Marginpar on page 6 moved.
 
 
-Overfull \hbox (7.94968pt too wide) in paragraph at lines 98--98
+Overfull \hbox (7.94968pt too wide) in paragraph at lines 110--110
 \OT1/cmr/m/n/12 ments, 
  []
 
 
-Overfull \hbox (13.43295pt too wide) in paragraph at lines 98--98
+Overfull \hbox (13.43295pt too wide) in paragraph at lines 110--110
 \OT1/cmr/m/n/12 cennare 
  []
 
 
-Overfull \hbox (15.06488pt too wide) in paragraph at lines 98--98
+Overfull \hbox (15.06488pt too wide) in paragraph at lines 110--110
 \OT1/cmr/m/n/12 dropout[]  
  []
 
 
-Overfull \hbox (7.94968pt too wide) in paragraph at lines 98--98
+Overfull \hbox (7.94968pt too wide) in paragraph at lines 110--110
 \OT1/cmr/m/n/12 ments, 
  []
 
 
-Overfull \hbox (13.43295pt too wide) in paragraph at lines 98--98
+Overfull \hbox (13.43295pt too wide) in paragraph at lines 110--110
 \OT1/cmr/m/n/12 cennare 
  []
 
 
-Overfull \hbox (15.06488pt too wide) in paragraph at lines 98--98
+Overfull \hbox (15.06488pt too wide) in paragraph at lines 110--110
 \OT1/cmr/m/n/12 dropout[]  
  []
 
 
 LaTeX Warning: Marginpar on page 6 moved.
+
+
+Overfull \hbox (32.5032pt too wide) in paragraph at lines 114--114
+[]\OT1/cmr/bx/n/14.4 Baseline Ar-chi-tec-ture Data-Preprocessing and Data-Loadi
+ng
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1298,17 +1180,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6]
-<./images//cit_reasoning_block.png, id=146, 766.062pt x 352.9185pt>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7]
+<./images//cit_reasoning_block.png, id=158, 766.062pt x 352.9185pt>
 File: ./images//cit_reasoning_block.png Graphic file (type png)
 <use ./images//cit_reasoning_block.png>
 Package pdftex.def Info: ./images//cit_reasoning_block.png  used on input line 
-150.
+177.
 (pdftex.def)             Requested size: 298.75264pt x 137.63765pt.
-<./images//cit_reasoning_block_2.png, id=148, 299.9205pt x 419.76825pt>
+<./images//cit_reasoning_block_2.png, id=160, 299.9205pt x 419.76825pt>
 File: ./images//cit_reasoning_block_2.png Graphic file (type png)
 <use ./images//cit_reasoning_block_2.png>
 Package pdftex.def Info: ./images//cit_reasoning_block_2.png  used on input lin
-e 156.
+e 183.
 (pdftex.def)             Requested size: 128.0387pt x 179.20938pt.
 
 
@@ -1319,7 +1210,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[7]) (main.bbl
+[8]) (main.bbl
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1328,7 +1219,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8 <./images//cit_reasoning_block.png> <./images//cit_reasoning_block_2.png>])
+[9 <./images//cit_reasoning_block.png> <./images//cit_reasoning_block_2.png>])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1337,35 +1228,36 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[9] (main.aux)
+[10] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 03141B601E7053902966C4BC20D26636;738.
+(rerunfilecheck)             Checksum: 65D5F313490F607C11E6D77EC729BA50;974.
  ) 
 Here is how much of TeX's memory you used:
- 20809 strings out of 479799
- 399002 string characters out of 2869723
- 778608 words of memory out of 3000000
- 37315 multiletter control sequences out of 15000+200000
- 541313 words of font info for 50 fonts, out of 3000000 for 9000
+ 21359 strings out of 479799
+ 406948 string characters out of 2869723
+ 782099 words of memory out of 3000000
+ 37851 multiletter control sequences out of 15000+200000
+ 541614 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,11n,115p,1016b,944s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\martu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1200.pk><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmex10.pfb><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmmi12.pfb><C:/Users/martu/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/martu/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/martu/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/martu/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ma
-rtu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/U
-sers/martu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmsy8.pfb><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmti12.pfb>
-Output written on main.pdf (9 pages, 484172 bytes).
+ic/amsfonts/cm/cmcsc10.pfb><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmex10.pfb><C:/Users/martu/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/martu/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/martu/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/martu/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/
+martu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C
+:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8
+.pfb><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (10 pages, 496503 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
- 51 named destinations out of 1000 (max. 500000)
- 124 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 235 PDF objects out of 1000 (max. 8388607)
+ 49 named destinations out of 1000 (max. 500000)
+ 140 words of extra memory for PDF output out of 10000 (max. 10000000)
 

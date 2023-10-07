@@ -1,11 +1,4 @@
-\begin{thebibliography}{10}
-
-\bibitem{openpose}
-Z.~{Cao}, G.~{Hidalgo Martinez}, T.~{Simon}, S.~{Wei}, and Y.~A. {Sheikh}.
-\newblock Openpose: Realtime multi-person 2d pose estimation using part
-  affinity fields.
-\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  2019.
+\begin{thebibliography}{1}
 
 \bibitem{dual-branch}
 Emanuele Fenocchi, Davide Morelli, Marcella Cornia, Lorenzo Baraldi, Fabio

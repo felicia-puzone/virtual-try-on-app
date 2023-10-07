@@ -25,12 +25,12 @@ Due to the exam constraints, the project also includes a content-based retrieval
 \item relevance in the fashion market: garment retrieval can be a very useful e-commerce tool to enchance the customer experience.
 \end{itemize}
 
-\todo{Questo paragrafo è da sistemare}
+% ??? Questo paragrafo è da sistemare
 The main contribution of our work can be summarized as an improvement of the CP-VTON+ architecture\cite{CP-VTON+} using a trasformer-based generative module.
 
 
 \subsection{Related works}
-\todo{Non so se aggiungere tutte le references dirette. Non so se va bene così o è necessario scendere maggiormente nel dettaglio.}
+% ??? Non so se aggiungere tutte le references dirette. Non so se va bene così o è necessario scendere maggiormente nel dettaglio.
 The baseline work is the CP-VTON architecture \cite{CP-VTON}. Its main contribution was the introduction of a two-stage pipeline:
 \begin{enumerate}[noitemsep]
 \item Warping Module: it computes a learnable Thin-Plate Spline transformation (TPS) for warping the in-shop garment in a reliable way;
@@ -45,15 +45,15 @@ Other works have employed a two-branch network, where one branch takes as input 
 A relatively new approach apply the Transfomer-based architecture and cross-modal attention mechanisms to the inputs before feeding them to the generative network \cite{CIT}\cite{dual-branch}.
 Lastly, some approaches tried to estimate the person semantic layout to improve the visual quality of the generated images.
 
-\todo{aggiustare, non sono ancora del tutto soddisfatto}
+% ??? aggiustare, non sono ancora del tutto soddisfatto
 Another line of research is trying to construct better and public datasets \cite{dress-code}:
 \begin{itemize}[noitemsep]
 \item increase the total number of samples;
 \item increase the image resolution: at now, the mostly used resolution is $256 \times 192$; although the processing is lighter, such images do not retain many cloth details;
 \item unpaired-images
 \end{itemize}
-\todo{articolo Cucchiara su Stable-Diffusion}
+% ??? articolo Cucchiara su Stable-Diffusion
 The newest line of research is an end-to-end deep-learning pipeline, for example. Anyway, such line is outside the scope of this project.
 
-\todo{dovrei inserire qualche citazione?}
+% ??? dovrei inserire qualche citazione?
 Regarding the cloth retrieval task, pioneer works utilized a fixed set of attributes (color, length, material, etc...) hand-labeled or automatically extracted (such as SIFT/ORB keypoints). Then the system compares the query-item and shop-item according to a similarity metric. The overall performance was not satisfying, since only perceptual method aren't able to capture the higher-level depencences between clothes, that have intricate pattern and not elementary shapes. In the last years, deep neural networks have been widely applied and have pushed the research into a new phase. These new methods learns a similarity metric between real-world and shop-item images from deep features representations extracted form images; an interesting example is Exact-Street-to-Shop \cite{stree2shop}. Like shown by \cite{wang2017clothing}, focusing on clothes regions and ignoring the background via a cloth parsing mechanism improves the overall performance.
