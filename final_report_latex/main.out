@@ -1,0 +1,12 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Problem statement}{section.1}% 2
+\BOOKMARK [2][-]{subsection.1.2}{Related works}{section.1}% 3
+\BOOKMARK [1][-]{section.2}{Dataset}{}% 4
+\BOOKMARK [1][-]{section.3}{Proposed Architecture}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{General approach}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Pre-Processing}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.3}{Person Representation}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.4}{Cloth Retrieval}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.5}{Warping}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.6}{Generation}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.7}{Post-Processing and Super-Resolution}{section.3}% 12

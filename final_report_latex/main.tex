@@ -1,0 +1,105 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{graphicx}
+
+%Path relative to the main .tex file 
+\graphicspath{ {./images/} }
+\usepackage[export]{adjustbox}
+\usepackage{caption}
+\usepackage{subcaption}
+\captionsetup{tableposition=top,figureposition=bottom,font=small}
+
+\usepackage{array}
+\usepackage{placeins}
+
+% Package to make citations superscrit with brackets
+\usepackage[super,square]{natbib}
+
+% Package to change margin size
+\usepackage{anysize}
+\marginsize{3cm}{3cm}{1cm}{2cm}
+
+% Package to make headers
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0pt}
+
+% Package for highligths
+\usepackage{soul}
+
+% Colors for the references links
+\usepackage[dvipsnames]{xcolor}
+% Package to link references
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=CadetBlue,
+    filecolor=CadetBlue,      
+    urlcolor=CadetBlue,
+}
+
+\usepackage{enumitem}
+
+\usepackage{lipsum}
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{amsmath}
+
+\usepackage{todonotes}
+
+\usepackage{outlines}
+
+% Package for multicolumn
+\usepackage{multicol}
+\setlength\columnsep{18pt}
+
+% Sets abastract
+\renewenvironment{abstract}
+ {\par\noindent\textbf{\abstractname}\ \ignorespaces \\}
+ {\par\noindent\medskip}
+ 
+
+
+\begin{document}
+
+% Makes header
+\pagestyle{fancy}
+\thispagestyle{empty}
+\fancyhead[R]{\textit{CVCS Course Final Project Report}}
+\fancyhead[L]{}
+
+% Makes footnotes with an asterisk
+\renewcommand*{\thefootnote}{\fnsymbol{footnote}}
+
+\begin{center}
+\Large{\textbf{Virtual Try-On: Final Project Report}} 
+\vspace{0.4cm}
+\normalsize
+\\ Francesco Martucci, Felicia Puzone, Francesco Sala \\
+\vspace{0.1cm}
+\textit{\{243215, 312722, 253589\}}
+\small{@studenti.unimore.it}
+Github project repository: https://github.com/felichan98/vton-cv-project\\
+\medskip
+\normalsize
+\end{center}
+
+{\color{gray}\hrule}
+\vspace{0.4cm}
+\begin{abstract}
+\input{./abstract.tex}
+\end{abstract}
+
+\setlength{\textwidth}{200pt}
+
+{\color{gray}\hrule}
+\medskip
+\input{./sections/1_intro.tex}
+\input{./sections/2_dataset.tex}
+\input{./sections/3_proposed_architecture.tex}
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}

@@ -1,0 +1,66 @@
+\begin{thebibliography}{10}
+
+\bibitem{openpose}
+Z.~{Cao}, G.~{Hidalgo Martinez}, T.~{Simon}, S.~{Wei}, and Y.~A. {Sheikh}.
+\newblock Openpose: Realtime multi-person 2d pose estimation using part
+  affinity fields.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  2019.
+
+\bibitem{dual-branch}
+Emanuele Fenocchi, Davide Morelli, Marcella Cornia, Lorenzo Baraldi, Fabio
+  Cesari, and Rita Cucchiara.
+\newblock Dual-branch collaborative transformer for virtual try-on.
+\newblock In {\em 2022 IEEE/CVF Conference on Computer Vision and Pattern
+  Recognition Workshops (CVPRW)}, pages 2246--2250, 2022.
+
+\bibitem{stree2shop}
+M.~Hadi Kiapour, Xufeng Han, Svetlana Lazebnik, Alexander~C. Berg, and
+  Tamara~L. Berg.
+\newblock Where to buy it: Matching street clothing photos in online shops.
+\newblock In {\em 2015 IEEE International Conference on Computer Vision
+  (ICCV)}, pages 3343--3351, 2015.
+
+\bibitem{li2019selfcorrection}
+Peike Li, Yunqiu Xu, Yunchao Wei, and Yi~Yang.
+\newblock Self-correction for human parsing, 2019.
+
+\bibitem{CP-VTON+}
+Matiur~Rahman Minar, Thai~Thanh Tuan, Heejune Ahn, Paul Rosin, and Yu-Kun Lai.
+\newblock Cp-vton+: Clothing shape and texture preserving image-based virtual
+  try-on.
+\newblock In {\em The IEEE/CVF Conference on Computer Vision and Pattern
+  Recognition (CVPR) Workshops}, June 2020.
+
+\bibitem{dress-code}
+Davide Morelli, Matteo Fincato, Marcella Cornia, Federico Landi, Fabio Cesari,
+  and Rita Cucchiara.
+\newblock {Dress Code: High-Resolution Multi-Category Virtual Try-On}.
+\newblock In {\em Proceedings of the European Conference on Computer Vision},
+  2022.
+
+\bibitem{CIT}
+Bin Ren, Hao Tang, Fanyang Meng, Runwei Ding, Ling Shao, Philip~HS Torr, and
+  Nicu Sebe.
+\newblock Cloth interactive transformer for virtual try-on.
+\newblock {\em arXiv preprint arXiv:2104.05519}, 2021.
+
+\bibitem{u-net}
+Olaf Ronneberger, Philipp Fischer, and Thomas Brox.
+\newblock U-net: Convolutional networks for biomedical image segmentation.
+\newblock In Nassir Navab, Joachim Hornegger, William~M. Wells, and
+  Alejandro~F. Frangi, editors, {\em Medical Image Computing and
+  Computer-Assisted Intervention -- MICCAI 2015}, pages 234--241, Cham, 2015.
+  Springer International Publishing.
+
+\bibitem{CP-VTON}
+Bochao Wang, Huabin Zheng, Xiaodan Liang, Yimin Chen, and Liang Lin.
+\newblock Toward characteristic-preserving image-based virtual try-on network.
+\newblock In {\em Proceedings of the European Conference on Computer Vision
+  (ECCV)}, pages 589--604, 2018.
+
+\bibitem{wang2017clothing}
+Zhonghao Wang, Yujun Gu, Ya~Zhang, Jun Zhou, and Xiao Gu.
+\newblock Clothing retrieval with visual attention model, 2017.
+
+\end{thebibliography}
