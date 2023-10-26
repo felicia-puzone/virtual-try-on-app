@@ -1,12 +1,20 @@
 \tableofcontents
 
-\section{Introduction}
+\hfill
 
+{\color{gray}\hrule}
+\begin{center}
+\section{Introduction}
+%\textbf{bla bla }
+\end{center}
+{\color{gray}\hrule}
+
+\hfill
 
 \subsection{Problem statement}
-During the course of our project, we designed a 2D image-based virtual-try-on system (VTON).
+Our project aims to build a 2D image-based virtual-try-on system (VTON).
 
-VTON consists in generating an image of a target person wearing a given try-on garment. This kind of problem has been widely investigated because of its economic importance in the fashion industry and its level of complexity.
+VTON consists in generating an image of a target person wearing a given try-on garment. This kind of problem has been widely investigated because of its importance in the fashion industry and its level of complexity.
 
 The main challenges and requirements \cite{CP-VTON} needed to accomplish this task are:
 \begin{itemize}[noitemsep]
@@ -15,8 +23,6 @@ The main challenges and requirements \cite{CP-VTON} needed to accomplish this ta
 \item merging the image of the target person with the warped result in a plausible way; 
 \item render light and shades of the final image correctly, to ensure realism.
 \end{itemize}
-It is evident that a trivial and simple approach doesn't work. Instead, it is required a multi-layered and deep-learning approach.
-
 Due to the exam constraints, the project also includes a content-based retrieval system: given a worn cloth, the system finds similar items from a repository. Also this kind of problem is challenging: 
 \begin{itemize}[noitemsep]
 \item clothes can have very different shape, colors and intricate decorative patterns;
@@ -24,9 +30,6 @@ Due to the exam constraints, the project also includes a content-based retrieval
 \item if the repository contains a very large number of garments, it is necessary an efficient management of the data and efficient retrieval algorithm;
 \item relevance in the fashion market: garment retrieval can be a very useful e-commerce tool to enchance the customer experience.
 \end{itemize}
-
-% ??? Questo paragrafo è da sistemare
-The main contribution of our work can be summarized as an improvement of the CP-VTON+ architecture\cite{CP-VTON+} using a trasformer-based generative module.
 
 
 \subsection{Related works}
@@ -38,22 +41,28 @@ The baseline work is the CP-VTON architecture \cite{CP-VTON}. Its main contribut
 \end{enumerate}
 
 The warping module allows the retaining of the important details of the garment, but it fails if the target person pose or the garment texture are too complex, or there are occlusions.
-Several works tried to improve the warping module and overcome such limitations by: integrating complementaryv modules; applying regularization techniques to stabilize the warping process during training; projection techniques of the garment details.
+Several works tried to improve the warping module and overcome such limitations by: integrating complementary modules; applying regularization techniques to stabilize the warping process during training; projection techniques of the garment details.
 
-For the generative module, the classical approach was the U-Net architecture (feeding the person image and the warped cloth).
+For the generative module, the classical approach is based on the U-Net architecture (feeding the person image and the warped cloth).
 Other works have employed a two-branch network, where one branch takes as input the person and the other the in-shop cloth and warping information.
-A relatively new approach apply the Transfomer-based architecture and cross-modal attention mechanisms to the inputs before feeding them to the generative network \cite{CIT}\cite{dual-branch}.
-Lastly, some approaches tried to estimate the person semantic layout to improve the visual quality of the generated images.
+A relatively new approach applies the Transfomer-based architecture and cross-modal attention mechanisms to the inputs before feeding them to the generative network. This step allows the network to extract long-range dependencies between input person image and warped cloth, improving the generated image quality. \cite{CIT}\cite{dual-branch}. 
 
 % ??? aggiustare, non sono ancora del tutto soddisfatto
 Another line of research is trying to construct better and public datasets \cite{dress-code}:
 \begin{itemize}[noitemsep]
-\item increase the total number of samples;
-\item increase the image resolution: at now, the mostly used resolution is $256 \times 192$; although the processing is lighter, such images do not retain many cloth details;
-\item unpaired-images
+\item increasing the total number of samples;
+\item increasing the image resolution: at now, the mostly used resolution is $256 \times 192$; although the processing is lighter, such images do not retain many cloth details;
+\item adding new garment categories, like lower-body and dresses images.
 \end{itemize}
-% ??? articolo Cucchiara su Stable-Diffusion
-The newest line of research is an end-to-end deep-learning pipeline, for example. Anyway, such line is outside the scope of this project.
+
 
 % ??? dovrei inserire qualche citazione?
-Regarding the cloth retrieval task, pioneer works utilized a fixed set of attributes (color, length, material, etc...) hand-labeled or automatically extracted (such as SIFT/ORB keypoints). Then the system compares the query-item and shop-item according to a similarity metric. The overall performance was not satisfying, since only perceptual method aren't able to capture the higher-level depencences between clothes, that have intricate pattern and not elementary shapes. In the last years, deep neural networks have been widely applied and have pushed the research into a new phase. These new methods learns a similarity metric between real-world and shop-item images from deep features representations extracted form images; an interesting example is Exact-Street-to-Shop \cite{stree2shop}. Like shown by \cite{wang2017clothing}, focusing on clothes regions and ignoring the background via a cloth parsing mechanism improves the overall performance.
+Regarding the cloth retrieval task, pioneer works utilized a fixed set of attributes (color, length, material, etc...) hand-labeled or automatically extracted (such as SIFT/ORB keypoints). Then the system compares the query-item and shop-item according to a similarity metric. The overall performance was not satisfying, since perceptual methods alone are not able to capture the higher-level depencences between clothes, that have intricate pattern and not elementary shapes. In the last years, deep neural networks have been widely applied and have pushed the research into a new phase. These new methods learns a similarity metric between real-world and shop-item images from deep features representations extracted form images; an interesting example is Exact-Street-to-Shop \cite{stree2shop}. Like shown by \cite{wang2017clothing}, focusing on clothes regions and ignoring the background via a cloth parsing mechanism improves the overall performance.
+
+\hfill
+
+
+
+
+
+

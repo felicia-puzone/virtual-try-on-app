@@ -1,0 +1,41 @@
+{\color{gray}\hrule}
+\begin{center}
+\section{Our Contribution}
+%\textbf{bla bla }
+\end{center}
+{\color{gray}\hrule}
+
+\hfill
+
+\subsection{What did we do?}
+There are plenty of state-of-the-art 2D VTON architectures, each one focusing on the improvement of some structural detail. While most of the networks are trained using the VITON dataset \cite{viton}, which contains 16.253 low-resolution images (256x192), we instead trained our networks on the DressCode dataset \cite{dress-code}, recently introduced by the AImageLab of UNIMORE. It benefits from the following characteristics:
+
+\begin{itemize}[noitemsep]
+
+\item High-resolution images ($1024 \times 768$).
+
+\item Very large dataset compared to publicly available ones, with approximately $50,000$ image pairs of try-on garments and corresponding catalog images, where each item is worn by a model.
+
+\item Multi-category clothes: front-view and full-body of upper-body, lower-body, and full-body attire.
+
+\end{itemize}
+
+Given the dataset, we decided to implement a network following the classical two-step warping-generative approach. The warping module is based on the TPS spline CP-VTON architecture. The Try-On module is based on CIT \cite{CIT}, which implies the presence of a three transformer encoders and six cross-modal transformer encoders module built to capture long-range dependencies between input person representation, cloth image and cloth mask. 
+
+Part of the work was to adapt existing networks implementations to accept higher resolution images and a different dataset setup, as well as to re-sample and pre-process the original dataset. The main steps are described in \textit{3.6 Data-Preprocessing and Data-Loading Adaptation}.
+
+Given the fact that DressCode dataset lacked the required cloth masks, we implemented a completely custom algorithm to extract the masks using only Canny and other non-deep methods. The results were surprisingly accurate, and only a little portion of the masks ware discarded. More in \textit{3.4 Cloth Mask Extraction}.
+
+We trained the system on upper-body images both with and without the CIT block, we compared the results on the same test set, showing that cross-modal attention blocks lead to better performances. 
+We also trained the system on full-body dress images without the CIT block (to save computational time). 
+
+One of the main goals was to make the pipeline work with in-the-wild images. For this reason, we also implemented a background removal module based on semantic segmentation and alpha transparency channel. This step is essential for the correct functioning of the system, because it makes the input image closer to the dataset distribution of sample images.
+
+Last but not least, we performed a super-resolution upscaling based on the recently published ControlNet architecture \cite{controlnet}. This step drastically improves the quality of the final image, even because it removes some defects and artifacts, such as bad hands and glitches. We tuned both the positive and negative prompt commands  to better fit our needs. More in \textit{3.10 Post-Processing and Super-Resolution}
+
+We also implemented a retrieval module following the Exact-Street-to-Shop \cite{stree2shop} approach. The main contribution here was the introduction of a new query-feature, designed by concatenating ORB keypoints and the 256 levels grayscale histogram into a 1D feature vector. Adding the histogram to the cloth image representation vector increased the accuracy of the network. More in \textit{3.5 Cloth Retrieval}.
+
+\hfill
+
+
+

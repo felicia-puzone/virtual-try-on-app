@@ -1,9 +1,5 @@
-\textit{Questo abstract non mi convince del tutto, bisogna riscriverlo.}
-Our project will be focusing on designing a 2D image-based virtual try on system. Virtual try on consists in generating an image of a reference person wearing a given try-on garment. This kind of problem has been widely investigated due to its relevance in the fashion market. VTON is also interesting as it is a challenging problem requiring a multi-layered approach incorporating at least both a geometric transformation module to warp the selected garment and a generative try-on module that creates the realistic try-on images.
+\textit{Our project will be focusing on designing a 2D image-based virtual try on system. Virtual try on consists in generating an image of a reference person wearing a given try-on garment. This kind of problem is usually solved with a two-stage approach,  incorporating at least both a geometric transformation module to warp the selected garment and a generative try-on module to reconstruct the realistic try-on image given the person representation and the warped cloth.
+We propose a complete pipeline built on this system performing in-the-wild virtual-try-on, consisting in image enhancing, background removal, a content-based retrieval system, cloth warping \& try-on and a final super-resolution upscaling based on StableDiffusion.}
 
-The project also includes a content-based retrieval system: given a worn cloth, the system extracts descriptors from the picture and finds similar items from a repository.
-
-\textit{Quest'ultima frase è da rivedere, alla luce di quello che ci disse il tutor.}
-The objective of the project will be for the system to more easily adapt to not as professional and noisier photos.
-
-\textit{N. parole: circa 150, quindi siamo ok.}
+\textit{The Warping and Try-On networks are trained by us through the DressCode dataset provided by Unimore. Substantial effort was put into dataset preprocessing and network adaptation. Moreover, our generative network was provided with a transformer-based block for establishing global mutual dependencies between the cloth and the person representations.
+We trained both our transformer-based generative module and another similar module and compared the outputs on a common test set, with results demonstrating better performances for the former.}

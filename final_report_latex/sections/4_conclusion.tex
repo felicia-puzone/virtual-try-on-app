@@ -1,0 +1,17 @@
+\hfill
+
+{\color{gray}\hrule}
+\begin{center}
+\section{Conclusion}
+%\textbf{bla bla }
+\end{center}
+{\color{gray}\hrule}
+
+\hfill
+
+Our work examined the 2D virtual try on problem in detail, highlighting some of its strenghts and its weaknesses. We were able to handle an heterogeneous dataset and to make it suitable for our purposes, by means of a lot of scripts and algorithms. We performed network adaptation and training on different cloth categories, and we were able to make a comparison between two approaches. We found out that the presence of a multi-modal transfomer-based feature extraction module improved the generated images. We re-implemented and re-trained a custom retrieval module, changing its feature vector composition. 
+How can all of this be improved for future development? First of all, the computational training time prevented us to obtain a more precise final result, expecially in  the generative module. A second improvement can be made in the dataset itself. Following the idea of the CP-VTON+ fix, more accuracy can be obtained if in the SCHP body segmentation images the neck label could be separated from the face label. The neck should not be included in the reserved region image, because it can be overwritten and modified by the worn cloth. Another idea can be to add a self-supervised step to disjoint the particular dataset image structure from an input image that can be taken with a different angle, a different camera perspective and so on.
+
+
+
+

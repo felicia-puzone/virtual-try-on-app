@@ -20,6 +20,8 @@ def generateMask(img, sharpenLevel = 0):
 
     if(sharpenLevel == 1):
         adjusted = cv2.filter2D(adjusted, -1, kernel)
+        cv2.imshow('Failed mask: sharpening kernel', adjusted)
+        cv2.waitKey(0)
 
     v = np.median(adjusted)
     sigma = 0.99
@@ -29,7 +31,16 @@ def generateMask(img, sharpenLevel = 0):
 
     edges = cv2.Canny(adjusted, 0, 255)
 
+    cv2.imshow('Image', adjusted)
+    cv2.waitKey(0)
+
+    cv2.imshow('Canny Edges', edges)
+    cv2.waitKey(0)
+
     edges = cv2.dilate(edges, np.ones((5, 5), np.uint8))
+
+    cv2.imshow('Dilated Canny Edges', edges)
+    cv2.waitKey(0)
 
     contours, hierarchy = cv2.findContours(edges,
                                            cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
@@ -44,8 +55,14 @@ def generateMask(img, sharpenLevel = 0):
 
     cv2.drawContours(mask, contours, 0, color=(255, 255, 255), thickness=cv2.FILLED)
 
+    cv2.imshow('Mask', mask)
+    cv2.waitKey(0)
+
     if (sharpenLevel == 1):
         mask = cv2.medianBlur(mask, 33)
+        cv2.imshow('Failed mask: applying Median Blur', mask)
+        cv2.waitKey(0)
+
 
     #computing White/Black Ratio
 
@@ -87,14 +104,14 @@ if __name__ == "__main__":
 
         mask, wb_ratio = generateMask(img_input, sharpenLevel=0)
 
-        if wb_ratio >= 0.1: total_of_good_masks += 1
+        if wb_ratio >= 0.3: total_of_good_masks += 1
 
-        if wb_ratio < 0.1:
+        if wb_ratio < 0.3:
             print("Failed to draw mask at first try. Adding sharpening kernel")
 
             mask, wb_ratio = generateMask(img_input, sharpenLevel=1)
 
-            if wb_ratio >= 0.1:
+            if wb_ratio >= 0.3:
                 first_fixed_count +=1
                 total_of_good_masks += 1
 
