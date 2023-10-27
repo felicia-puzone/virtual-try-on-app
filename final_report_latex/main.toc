@@ -1,14 +1,26 @@
 \contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Problem statement}{2}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Related works}{2}{subsection.1.2}%
-\contentsline {section}{\numberline {2}Dataset and Proposed Architectures}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Dataset Preprocessing}{3}{subsection.2.1}%
+\contentsline {section}{\numberline {2}Our Contribution}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}What did we do?}{3}{subsection.2.1}%
 \contentsline {section}{\numberline {3}Pipeline and Implementation Details}{4}{section.3}%
 \contentsline {subsection}{\numberline {3.1}General approach}{4}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Image Pre-Processing}{4}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Person Representation}{5}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Cloth Retrieval}{6}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Baseline Architecture Data-Preprocessing and Data-Loading Adaptation}{7}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Warping}{7}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}Generation}{8}{subsection.3.7}%
-\contentsline {subsection}{\numberline {3.8}Post-Processing and Super-Resolution}{9}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.2}Image Pre-Processing}{5}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Image Enhancing}{5}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Background Removal}{6}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}Person Representation Extraction}{6}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Keypoints Extraction}{6}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}Body-shape Mask Extraction}{7}{subsubsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.4}Cloth Mask Extraction}{7}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Cloth Retrieval}{8}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Data-Preprocessing and Data-Loading Adaptation}{9}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Warping Module}{10}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Generative Module}{11}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.9}Training}{12}{subsection.3.9}%
+\contentsline {subsubsection}{\numberline {3.9.1}Setup}{12}{subsubsection.3.9.1}%
+\contentsline {subsubsection}{\numberline {3.9.2}Upper body Training}{13}{subsubsection.3.9.2}%
+\contentsline {subsubsection}{\numberline {3.9.3}Dresses Training}{14}{subsubsection.3.9.3}%
+\contentsline {subsection}{\numberline {3.10}Cloth-Retrieval-Net Training}{14}{subsection.3.10}%
+\contentsline {subsubsection}{\numberline {3.10.1}Final Experiment Results}{15}{subsubsection.3.10.1}%
+\contentsline {subsection}{\numberline {3.11}Post-Processing and Super-Resolution}{15}{subsection.3.11}%
+\contentsline {section}{\numberline {4}Conclusion}{17}{section.4}%

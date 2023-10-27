@@ -1,4 +1,14 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{controlnet}
+Lvmin Zhang Anyi Rao~Maneesh Agrawala.
+\newblock Adding conditional control to text-to-image diffusion models.
+\newblock {\em arXiv preprint arXiv:2302.05543}, 2023.
+
+\bibitem{viton}
+Xintong Han Zuxuan Wu Zhe Wu Ruichi Yu Larry~S. Davis.
+\newblock Viton: An image-based virtual try-on network.
+\newblock \url{https://arxiv.org/abs/1711.08447}, 2018.
 
 \bibitem{dual-branch}
 Emanuele Fenocchi, Davide Morelli, Marcella Cornia, Lorenzo Baraldi, Fabio
@@ -17,6 +27,12 @@ M.~Hadi Kiapour, Xufeng Han, Svetlana Lazebnik, Alexander~C. Berg, and
 \bibitem{li2019selfcorrection}
 Peike Li, Yunqiu Xu, Yunchao Wei, and Yi~Yang.
 \newblock Self-correction for human parsing, 2019.
+
+\bibitem{tile}
+lllyasviel.
+\newblock Controlnet - v1.1 - tile version.
+\newblock \url{https://huggingface.co/lllyasviel/control_v11f1e_sd15_tile},
+  2023.
 
 \bibitem{CP-VTON+}
 Matiur~Rahman Minar, Thai~Thanh Tuan, Heejune Ahn, Paul Rosin, and Yu-Kun Lai.
@@ -55,5 +71,10 @@ Bochao Wang, Huabin Zheng, Xiaodan Liang, Yimin Chen, and Liang Lin.
 \bibitem{wang2017clothing}
 Zhonghao Wang, Yujun Gu, Ya~Zhang, Jun Zhou, and Xiao Gu.
 \newblock Clothing retrieval with visual attention model, 2017.
+
+\bibitem{detectron2}
+Yuxin Wu, Alexander Kirillov, Francisco Massa, Wan-Yen Lo, and Ross Girshick.
+\newblock Detectron2.
+\newblock \url{https://github.com/facebookresearch/detectron2}, 2019.
 
 \end{thebibliography}

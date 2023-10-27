@@ -1,14 +1,26 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
 \BOOKMARK [2][-]{subsection.1.1}{Problem statement}{section.1}% 2
 \BOOKMARK [2][-]{subsection.1.2}{Related works}{section.1}% 3
-\BOOKMARK [1][-]{section.2}{Dataset and Proposed Architectures}{}% 4
-\BOOKMARK [2][-]{subsection.2.1}{Dataset Preprocessing}{section.2}% 5
+\BOOKMARK [1][-]{section.2}{Our Contribution}{}% 4
+\BOOKMARK [2][-]{subsection.2.1}{What did we do?}{section.2}% 5
 \BOOKMARK [1][-]{section.3}{Pipeline and Implementation Details}{}% 6
 \BOOKMARK [2][-]{subsection.3.1}{General approach}{section.3}% 7
 \BOOKMARK [2][-]{subsection.3.2}{Image Pre-Processing}{section.3}% 8
-\BOOKMARK [2][-]{subsection.3.3}{Person Representation}{section.3}% 9
-\BOOKMARK [2][-]{subsection.3.4}{Cloth Retrieval}{section.3}% 10
-\BOOKMARK [2][-]{subsection.3.5}{Baseline Architecture Data-Preprocessing and Data-Loading Adaptation}{section.3}% 11
-\BOOKMARK [2][-]{subsection.3.6}{Warping}{section.3}% 12
-\BOOKMARK [2][-]{subsection.3.7}{Generation}{section.3}% 13
-\BOOKMARK [2][-]{subsection.3.8}{Post-Processing and Super-Resolution}{section.3}% 14
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Image Enhancing}{subsection.3.2}% 9
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Background Removal}{subsection.3.2}% 10
+\BOOKMARK [2][-]{subsection.3.3}{Person Representation Extraction}{section.3}% 11
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Keypoints Extraction}{subsection.3.3}% 12
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Body-shape Mask Extraction}{subsection.3.3}% 13
+\BOOKMARK [2][-]{subsection.3.4}{Cloth Mask Extraction}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.5}{Cloth Retrieval}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.6}{Data-Preprocessing and Data-Loading Adaptation}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.7}{Warping Module}{section.3}% 17
+\BOOKMARK [2][-]{subsection.3.8}{Generative Module}{section.3}% 18
+\BOOKMARK [2][-]{subsection.3.9}{Training}{section.3}% 19
+\BOOKMARK [3][-]{subsubsection.3.9.1}{Setup}{subsection.3.9}% 20
+\BOOKMARK [3][-]{subsubsection.3.9.2}{Upper body Training}{subsection.3.9}% 21
+\BOOKMARK [3][-]{subsubsection.3.9.3}{Dresses Training}{subsection.3.9}% 22
+\BOOKMARK [2][-]{subsection.3.10}{Cloth-Retrieval-Net Training}{section.3}% 23
+\BOOKMARK [3][-]{subsubsection.3.10.1}{Final Experiment Results}{subsection.3.10}% 24
+\BOOKMARK [2][-]{subsection.3.11}{Post-Processing and Super-Resolution}{section.3}% 25
+\BOOKMARK [1][-]{section.4}{Conclusion}{}% 26

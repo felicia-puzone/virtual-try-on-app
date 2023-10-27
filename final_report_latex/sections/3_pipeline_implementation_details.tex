@@ -144,13 +144,12 @@ Eventually, this second-pass allowed to save about 20\% of the failed masks. The
 \subsection{Cloth Retrieval}
 
 The goal of this module is to match a real-world example of a garment item to the same or similar item in an online shop. We take inspiration from Exact-Street-to-Shop approach that makes two interesing points:
-\begin{itemize}
+\begin{itemize}[noitemsep]
 	\item mixing up the geometric/perceptual and the deep-learning works pretty well;
 	\item tackle the cloth-matching problem as a binary classification (match or not).
 \end{itemize}
 
-\todo{inserire immagine}
-As depicted in the figure.., we built a reference repository of in-shop cloth items, using the cloth-only images in DressCode. For each cloth item we extract a new feature representation following these steps:
+We built a reference repository of in-shop cloth items, using the cloth-only images in DressCode. For each cloth item we extract a new feature representation following these steps:
 \begin{outline}
  \1 for each image channel (DressCode images are in the RGB format):
    \2 run ORB algorithm to compute the keypoints and the corresponding descriptors;
@@ -164,19 +163,20 @@ The noise-clean desidered cloth image is fed to a sub-module that detects the cl
 \1 for each in-shop cloth:
 	\2 concatenate the query-feature with the in-shop cloth feature in a 1D tensor;
 	\2 fed the tensor to the deep neural network;
+	\2 save the similarity (match) score.
 \1 sort and select the $k$-best matched in-shop clothes according to the matching-score given by the network. 
 \end{outline}
-\todo{inserire l'immagine della rete}
-As depicted in the figure..., the deep neural network we designed is composed by a sequence of Fully-Connected and Normalization layers, that outputs two numbers representing, after softmax normalization, the probability of no-matching and the probability of matching. The higher one is considered the final classification result.
+% ??? inserire l'immagine della rete
+As depicted in the figure..., the deep neural network we designed is composed by:
+\begin{itemize}
+	\item{a linear layer: it performs the embedding of the input tensor;}
+	\item{a transformer encoder: it performs the representation conversion of the given embedding}
+	\item{a linear layer and softmax: it converts the output of the transformer encoder in two probability scores (matching and no-matching.}
+\end{itemize}
+The higher probability score determines the classification result of the query-feature.
 
-\todo{sistemare la formula}
-To train this network, we used the regularized cross-entropy loss:
-\begin{equation}
-L(\theta) = \lambda_1 \cdot L_1(c_{warped}, I_{c_t}) + \lambda_{reg} \cdot L_{reg} .
-\end{equation}
+To train this network, we used the cross-entropy loss.
 
-\todo{in Experiments, accennare al dropout}
-During training, the network tried to classify both positive examples (the paired couples of worn-cloth and cloth taken) and negative examples (not paired couples). Since the number of potential negative examples was far more the number of positive examples, we used data augmentation to creating synthetic positive examples from existing one: we applyed gaussian noise to the feature representations.
 
 
 \subsection{Data-Preprocessing and Data-Loading Adaptation}
@@ -202,19 +202,16 @@ The resulting dataset contained 11.959 upper-body samples and 24.309 dresses sam
 We also modified the Dataset class used by the dataloader, changing some file names conventions and creating a new label map dictionary to adapt the DressCode SCHP based body parts segmentation masks to the system. See more in \textit{network/cp\_dataset\_modified.py} (Dictionary name: \textit{DressCode\_labelmap\_g}).
 
 \subsection{Warping Module}
-% ??? inserire citazione: vedi [33] di Dress-Code
 We follow the warping module proposed in CP-VTON+ \cite{CP-VTON+}.
-This module transforms the input try-on garment $c$ into a warped image of the same item that matches the body pose $p$ and shape $m$. As warping function we use a thin-plate spline (TPS) geometric transformation, which is commonly used in virtual
-try-on models \textit{qua va la cit.33}.  Inside this module, we aim to learn the correspondence between the inputs $(c, p, m)$ and the set of parameters $\theta$ to be used in the TPS transformation. Intuitively, the TPS fits a surface (try-on garmet) through points (feature regression output points) minimizing an energy function. Formally, it is a poli-harmonic spline function which maps a set of points $(x,y)$ on their correspondences $(x',y')$ sampled from input images. Under these terms, the warping module aims to learn how to perform such transformation.
+This module transforms the input try-on garment $c$ into a warped image of the same item that matches the body pose $p$ and shape $m$. As warping function we use a thin-plate spline (TPS) geometric transformation, which is commonly used in virtual try-on models.  Inside this module, we aim to learn the correspondence between the inputs $(c, p, m)$ and the set of parameters $\theta$ to be used in the TPS transformation. Intuitively, the TPS fits a surface (try-on garmet) through points (feature regression output points) minimizing an energy function. Formally, it is a poli-harmonic spline function which maps a set of points $(x,y)$ on their correspondences $(x',y')$ sampled from input images. Under these terms, the warping module aims to learn how to perform such transformation.
 
 % ??? inserire uno schema del modulo di warping
-As depicted in figure blabla, the module extracts an encoded representation of the try-on garment $c$ and an encoded representation of the person representation through two separate convolutional networks.
+As depicted in figure \ref{fig:GMM_MODULE}, the module extracts an encoded representation of the try-on garment $c$ and an encoded representation of the person representation through two separate convolutional networks.
 Then, it is computed a correlation map between these representations.
 This correlation map is used to predict the spatial transformation parameters $\theta$ corresponding to the $(x,y)$-coordinate offsets of TPS anchor points. 
 
 To train this network, we used the following loss:
-% ??? sostituire \times con il puntino della moltimiplicazione
-% ??? L_reg nel paper mi lascia molto molto confuso
+% ??? completare la scrittura della loss
 \begin{equation}
 L(\theta) = \lambda_1 \cdot L_1(c_{warped}, I_{c_t}) + \lambda_{reg} \cdot L_{reg} ;
 \end{equation} 
@@ -235,9 +232,6 @@ where $L_1$ indicates the pixel-wise $L_1$-loss between the warped result $c_{wa
 
 
 \subsection{Generative Module}
-% ??? non so se questa sezione si possa considerare completa o va aggiunto altro
-
-% ??? non sono del tutto soddisfatto della seconda metà del paragrafo
 This module aims at fitting the warped garment on the target person. Previous works like CP-VTON and CP-VTON+ directly concatenate the person image $p$, the warped clothing image
 $\hat{c}$, and the warped clothing mask image $\hat{cm}$ . 
 
@@ -352,6 +346,13 @@ Training on the Dresses category was only performed using the baseline version o
 
 \caption{Some examples of test Dresses generated images.}
 \end{figure}
+
+\subsection{Cloth-Retrieval-Net Training}
+To train this network, we used the cross-entropy loss, applying the dropout regularization.
+
+During training, the network tried to classify both positive examples (the paired couples of worn-cloth and cloth taken) and negative examples (not paired couples). Since the number of potential negative examples was far more the number of positive examples, we used data augmentation to creating synthetic positive examples from existing one: we applyed multivariate gaussian noise to the feature representations.
+
+Our best trained model reached an accuracy of $0.90$ on the test set (subset of DressCode).  
 
 
 \subsubsection{Final Experiment Results}

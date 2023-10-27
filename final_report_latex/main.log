@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.3)  7 OCT 2023 12:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.3)  26 OCT 2023 20:37
 entering extended mode
 **./main.tex
 (main.tex
@@ -950,7 +950,14 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \colbreak@box=\box113
 \mc@col@check@num=\count332
 )
-(main.aux)
+(main.aux
+
+LaTeX Warning: Label `fig:TOM_MODULE' multiply defined.
+
+
+LaTeX Warning: Label `tbl:table_of_figures' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
@@ -1031,13 +1038,13 @@ File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 84.
 
-(abstract.tex) (sections/1_intro.tex (main.toc)
+(abstract.tex) (sections/1_intro.tex (main.toc [1
+
+{C:/Users/martu/AppData/Local/MiKTeX/pdftex/config/pdftex.map}])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [1
 
-{C:/Users/martu/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1046,10 +1053,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[2]) (sections/2_dataset.tex
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 30.
-) (sections/3_proposed_architecture.tex
+[2]) (sections/2_dataset_and_architectures.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1058,13 +1062,192 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[3]
-<./images//general_pipeline.jpg, id=118, 2788.4175pt x 564.1075pt>
+[3]) (sections/3_pipeline_implementation_details.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4]
+<./images//general_pipeline.jpg, id=186, 2788.4175pt x 564.1075pt>
 File: ./images//general_pipeline.jpg Graphic file (type jpg)
 <use ./images//general_pipeline.jpg>
-Package pdftex.def Info: ./images//general_pipeline.jpg  used on input line 25.
+Package pdftex.def Info: ./images//general_pipeline.jpg  used on input line 26.
 
 (pdftex.def)             Requested size: 426.75414pt x 86.33398pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[5 <./images//general_pipeline.jpg>]
+<./images//049433_0.jpg, id=193, 385.44pt x 513.92pt>
+File: ./images//049433_0.jpg Graphic file (type jpg)
+<use ./images//049433_0.jpg>
+Package pdftex.def Info: ./images//049433_0.jpg  used on input line 58.
+(pdftex.def)             Requested size: 108.405pt x 144.53964pt.
+<./images//049433_0.png, id=194, 385.44pt x 513.92pt>
+File: ./images//049433_0.png Graphic file (type png)
+<use ./images//049433_0.png>
+Package pdftex.def Info: ./images//049433_0.png  used on input line 59.
+(pdftex.def)             Requested size: 108.405pt x 144.53964pt.
+<./images//imgNoBG_0.jpg, id=195, 385.44pt x 513.92pt>
+File: ./images//imgNoBG_0.jpg Graphic file (type jpg)
+<use ./images//imgNoBG_0.jpg>
+Package pdftex.def Info: ./images//imgNoBG_0.jpg  used on input line 60.
+(pdftex.def)             Requested size: 108.405pt x 144.53964pt.
+<./images//parse_head_warping.png, id=198, 240.9pt x 314.97675pt>
+File: ./images//parse_head_warping.png Graphic file (type png)
+<use ./images//parse_head_warping.png>
+Package pdftex.def Info: ./images//parse_head_warping.png  used on input line 8
+9.
+(pdftex.def)             Requested size: 108.405pt x 141.73822pt.
+
+Underfull \hbox (badness 1226) in paragraph at lines 89--89
+[]\OT1/cmr/m/n/10 (a) |GMM Mod-ule Re-
+ []
+
+<./images//parseheadtom.png, id=200, 287.8755pt x 387.24675pt>
+File: ./images//parseheadtom.png Graphic file (type png)
+<use ./images//parseheadtom.png>
+Package pdftex.def Info: ./images//parseheadtom.png  used on input line 90.
+(pdftex.def)             Requested size: 108.405pt x 145.82578pt.
+<./images//dress_parsehead.png, id=201, 118.64325pt x 158.39175pt>
+File: ./images//dress_parsehead.png Graphic file (type png)
+<use ./images//dress_parsehead.png>
+Package pdftex.def Info: ./images//dress_parsehead.png  used on input line 91.
+(pdftex.def)             Requested size: 108.405pt x 144.724pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6 <./images//049433_0.jpg> <./images//049433_0.png (PNG copy)> <./images//imgN
+oBG_0.jpg>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7 <./images//parse_head_warping.png> <./images//parseheadtom.png> <./images//d
+ress_parsehead.png>]
+<./images//image1.png, id=220, 286.06876pt x 381.22424pt>
+File: ./images//image1.png Graphic file (type png)
+<use ./images//image1.png>
+Package pdftex.def Info: ./images//image1.png  used on input line 130.
+(pdftex.def)             Requested size: 72.26999pt x 96.30635pt.
+<./images//canny_edges.png, id=221, 284.86424pt x 381.22424pt>
+File: ./images//canny_edges.png Graphic file (type png)
+<use ./images//canny_edges.png>
+Package pdftex.def Info: ./images//canny_edges.png  used on input line 131.
+(pdftex.def)             Requested size: 72.26999pt x 96.71353pt.
+<./images//dilated_canny_edges.png, id=222, 284.262pt x 383.031pt>
+File: ./images//dilated_canny_edges.png Graphic file (type png)
+<use ./images//dilated_canny_edges.png>
+Package pdftex.def Info: ./images//dilated_canny_edges.png  used on input line 
+132.
+(pdftex.def)             Requested size: 72.26999pt x 97.37645pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[]\OT1/cmr/m/n/10 (c) |Di-lated
+ []
+
+<./images//failed_mask.png, id=223, 286.06876pt x 381.22424pt>
+File: ./images//failed_mask.png Graphic file (type png)
+<use ./images//failed_mask.png>
+Package pdftex.def Info: ./images//failed_mask.png  used on input line 133.
+(pdftex.def)             Requested size: 72.26999pt x 96.30635pt.
+<./images//sharpened_image.png, id=224, 287.27325pt x 383.63326pt>
+File: ./images//sharpened_image.png Graphic file (type png)
+<use ./images//sharpened_image.png>
+Package pdftex.def Info: ./images//sharpened_image.png  used on input line 134.
+
+(pdftex.def)             Requested size: 72.26999pt x 96.511pt.
+<./images//sharpened_canny_edges.png, id=225, 287.27325pt x 381.22424pt>
+File: ./images//sharpened_canny_edges.png Graphic file (type png)
+<use ./images//sharpened_canny_edges.png>
+Package pdftex.def Info: ./images//sharpened_canny_edges.png  used on input lin
+e 135.
+(pdftex.def)             Requested size: 72.26999pt x 95.90497pt.
+<./images//dilated_sharpened_canny_edges.png, id=226, 286.671pt x 385.44pt>
+File: ./images//dilated_sharpened_canny_edges.png Graphic file (type png)
+<use ./images//dilated_sharpened_canny_edges.png>
+Package pdftex.def Info: ./images//dilated_sharpened_canny_edges.png  used on i
+nput line 136.
+(pdftex.def)             Requested size: 72.26999pt x 97.17139pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+[]\OT1/cmr/m/n/10 (g) |Di-lated
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+\OT1/cmr/m/n/10 Canny Edges
+ []
+
+<./images//sharpened_mask.png, id=227, 287.27325pt x 383.63326pt>
+File: ./images//sharpened_mask.png Graphic file (type png)
+<use ./images//sharpened_mask.png>
+Package pdftex.def Info: ./images//sharpened_mask.png  used on input line 137.
+(pdftex.def)             Requested size: 72.26999pt x 96.511pt.
+
+Underfull \hbox (badness 1701) in paragraph at lines 137--137
+[]\OT1/cmr/m/n/10 (h) |Mask af-ter
+ []
+
+<./images//median_blur_mask.png, id=228, 289.68225pt x 385.44pt>
+File: ./images//median_blur_mask.png Graphic file (type png)
+<use ./images//median_blur_mask.png>
+Package pdftex.def Info: ./images//median_blur_mask.png  used on input line 138
+.
+(pdftex.def)             Requested size: 72.26999pt x 96.15979pt.
+
+Underfull \hbox (badness 3942) in paragraph at lines 138--138
+[]\OT1/cmr/m/n/10 (i) |Mask af-ter
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8 <./images//image1.png> <./images//canny_edges.png> <./images//dilated_canny_
+edges.png> <./images//failed_mask.png> <./images//sharpened_image.png> <./image
+s//sharpened_canny_edges.png> <./images//dilated_sharpened_canny_edges.png> <./
+images//sharpened_mask.png> <./images//median_blur_mask.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9]
+<./images//GMM_MODULE.png, id=251, 1061.1645pt x 478.78876pt>
+File: ./images//GMM_MODULE.png Graphic file (type png)
+<use ./images//GMM_MODULE.png>
+Package pdftex.def Info: ./images//GMM_MODULE.png  used on input line 227.
+(pdftex.def)             Requested size: 426.78993pt x 192.56413pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1077,99 +1260,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[4]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[5 <./images//general_pipeline.jpg>]
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 84.
-
-Overfull \hbox (11.53992pt too wide) in paragraph at lines 84--84
-[][][]\OT1/cmr/m/n/12 inserire 
- []
-
-
-Overfull \hbox (11.53992pt too wide) in paragraph at lines 84--84
-[][][]\OT1/cmr/m/n/12 inserire 
- []
-
-
-Overfull \hbox (11.53992pt too wide) in paragraph at lines 101--101
-[][][]\OT1/cmr/m/n/12 inserire 
- []
-
-
-Overfull \hbox (30.405pt too wide) in paragraph at lines 101--101
-\OT1/cmr/m/n/12 l'immagine 
- []
-
-
-Overfull \hbox (11.53992pt too wide) in paragraph at lines 101--101
-[][][]\OT1/cmr/m/n/12 inserire 
- []
-
-
-Overfull \hbox (30.405pt too wide) in paragraph at lines 101--101
-\OT1/cmr/m/n/12 l'immagine 
- []
-
-
-Overfull \hbox (22.04953pt too wide) in paragraph at lines 104--104
-[][][]\OT1/cmr/m/n/12 sistemare 
- []
-
-
-Overfull \hbox (22.04953pt too wide) in paragraph at lines 104--104
-[][][]\OT1/cmr/m/n/12 sistemare 
- []
-
-
-LaTeX Warning: Marginpar on page 6 moved.
-
-
-Overfull \hbox (7.94968pt too wide) in paragraph at lines 110--110
-\OT1/cmr/m/n/12 ments, 
- []
-
-
-Overfull \hbox (13.43295pt too wide) in paragraph at lines 110--110
-\OT1/cmr/m/n/12 cennare 
- []
-
-
-Overfull \hbox (15.06488pt too wide) in paragraph at lines 110--110
-\OT1/cmr/m/n/12 dropout[]  
- []
-
-
-Overfull \hbox (7.94968pt too wide) in paragraph at lines 110--110
-\OT1/cmr/m/n/12 ments, 
- []
-
-
-Overfull \hbox (13.43295pt too wide) in paragraph at lines 110--110
-\OT1/cmr/m/n/12 cennare 
- []
-
-
-Overfull \hbox (15.06488pt too wide) in paragraph at lines 110--110
-\OT1/cmr/m/n/12 dropout[]  
- []
-
-
-LaTeX Warning: Marginpar on page 6 moved.
-
-
-Overfull \hbox (32.5032pt too wide) in paragraph at lines 114--114
-[]\OT1/cmr/bx/n/14.4 Baseline Ar-chi-tec-ture Data-Preprocessing and Data-Loadi
-ng
- []
+[10]
+<./images//TOM_MODULE.png, id=261, 957.5775pt x 436.63126pt>
+File: ./images//TOM_MODULE.png Graphic file (type png)
+<use ./images//TOM_MODULE.png>
+Package pdftex.def Info: ./images//TOM_MODULE.png  used on input line 240.
+(pdftex.def)             Requested size: 426.78546pt x 194.60344pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1179,27 +1275,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[7]
-<./images//cit_reasoning_block.png, id=158, 766.062pt x 352.9185pt>
+[11 <./images//GMM_MODULE.png> <./images//TOM_MODULE.png>]
+<./images//cit_reasoning_block.png, id=274, 766.062pt x 352.9185pt>
 File: ./images//cit_reasoning_block.png Graphic file (type png)
 <use ./images//cit_reasoning_block.png>
 Package pdftex.def Info: ./images//cit_reasoning_block.png  used on input line 
-177.
+264.
 (pdftex.def)             Requested size: 298.75264pt x 137.63765pt.
-<./images//cit_reasoning_block_2.png, id=160, 299.9205pt x 419.76825pt>
+<./images//cit_reasoning_block_2.png, id=275, 299.9205pt x 419.76825pt>
 File: ./images//cit_reasoning_block_2.png Graphic file (type png)
 <use ./images//cit_reasoning_block_2.png>
 Package pdftex.def Info: ./images//cit_reasoning_block_2.png  used on input lin
-e 183.
+e 270.
 (pdftex.def)             Requested size: 128.0387pt x 179.20938pt.
 
 
@@ -1210,7 +1297,100 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8]) (main.bbl
+[12 <./images//cit_reasoning_block.png> <./images//cit_reasoning_block_2.png>]
+<./images//losses.jpg, id=283, 1284.8pt x 756.8275pt>
+File: ./images//losses.jpg Graphic file (type jpg)
+<use ./images//losses.jpg>
+Package pdftex.def Info: ./images//losses.jpg  used on input line 293.
+(pdftex.def)             Requested size: 289.8125pt x 170.71767pt.
+<./images//clothw.png, id=284, 190.311pt x 254.1495pt>
+File: ./images//clothw.png Graphic file (type png)
+<use ./images//clothw.png>
+Package pdftex.def Info: ./images//clothw.png  used on input line 306.
+(pdftex.def)             Requested size: 72.26999pt x 96.51189pt.
+<./images//clothwarp.png, id=285, 184.89075pt x 254.75175pt>
+File: ./images//clothwarp.png Graphic file (type png)
+<use ./images//clothwarp.png>
+Package pdftex.def Info: ./images//clothwarp.png  used on input line 307.
+(pdftex.def)             Requested size: 72.26999pt x 99.57823pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
+[]\OT1/cmr/m/n/10 (b) |Warped
+ []
+
+<./images//warpgt.png, id=286, 186.6975pt x 255.95625pt>
+File: ./images//warpgt.png Graphic file (type png)
+<use ./images//warpgt.png>
+Package pdftex.def Info: ./images//warpgt.png  used on input line 308.
+(pdftex.def)             Requested size: 72.26999pt x 99.08046pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+[]\OT1/cmr/m/n/10 (c) |Ground
+ []
+
+<./images//grid.png, id=287, 229.45724pt x 307.74976pt>
+File: ./images//grid.png Graphic file (type png)
+<use ./images//grid.png>
+Package pdftex.def Info: ./images//grid.png  used on input line 309.
+(pdftex.def)             Requested size: 72.26999pt x 96.92758pt.
+<./images//wornboh.png, id=288, 233.673pt x 310.761pt>
+File: ./images//wornboh.png Graphic file (type png)
+<use ./images//wornboh.png>
+Package pdftex.def Info: ./images//wornboh.png  used on input line 310.
+(pdftex.def)             Requested size: 72.26999pt x 96.1073pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--310
+[]\OT1/cmr/m/n/10 (e) |Warped
+ []
+
+<./images//gtimage.png, id=289, 229.45724pt x 311.36325pt>
+File: ./images//gtimage.png Graphic file (type png)
+<use ./images//gtimage.png>
+Package pdftex.def Info: ./images//gtimage.png  used on input line 311.
+(pdftex.def)             Requested size: 72.26999pt x 98.06569pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+[]\OT1/cmr/m/n/10 (f) |Ground
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+\OT1/cmr/m/n/10 truth per-son
+ []
+
+<./images//cit_000826_0.jpg, id=290, 385.44pt x 513.92pt>
+File: ./images//cit_000826_0.jpg Graphic file (type jpg)
+<use ./images//cit_000826_0.jpg>
+Package pdftex.def Info: ./images//cit_000826_0.jpg  used on input line 325.
+(pdftex.def)             Requested size: 86.72377pt x 115.627pt.
+<./images//cit_001820_0.jpg, id=291, 385.44pt x 513.92pt>
+File: ./images//cit_001820_0.jpg Graphic file (type jpg)
+<use ./images//cit_001820_0.jpg>
+Package pdftex.def Info: ./images//cit_001820_0.jpg  used on input line 325.
+(pdftex.def)             Requested size: 86.72377pt x 115.627pt.
+<./images//cit_002566_0.jpg, id=292, 385.44pt x 513.92pt>
+File: ./images//cit_002566_0.jpg Graphic file (type jpg)
+<use ./images//cit_002566_0.jpg>
+Package pdftex.def Info: ./images//cit_002566_0.jpg  used on input line 325.
+(pdftex.def)             Requested size: 86.72377pt x 115.627pt.
+<./images//000826_0.jpg, id=293, 385.44pt x 513.92pt>
+File: ./images//000826_0.jpg Graphic file (type jpg)
+<use ./images//000826_0.jpg>
+Package pdftex.def Info: ./images//000826_0.jpg  used on input line 326.
+(pdftex.def)             Requested size: 86.72377pt x 115.627pt.
+<./images//001820_0.jpg, id=294, 385.44pt x 513.92pt>
+File: ./images//001820_0.jpg Graphic file (type jpg)
+<use ./images//001820_0.jpg>
+Package pdftex.def Info: ./images//001820_0.jpg  used on input line 326.
+(pdftex.def)             Requested size: 86.72377pt x 115.627pt.
+<./images//002566_0.jpg, id=295, 385.44pt x 513.92pt>
+File: ./images//002566_0.jpg Graphic file (type jpg)
+<use ./images//002566_0.jpg>
+Package pdftex.def Info: ./images//002566_0.jpg  used on input line 326.
+(pdftex.def)             Requested size: 86.72377pt x 115.627pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1219,7 +1399,30 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[9 <./images//cit_reasoning_block.png> <./images//cit_reasoning_block_2.png>])
+[13 <./images//losses.jpg> <./images//clothw.png> <./images//clothwarp.png> <./
+images//warpgt.png> <./images//grid.png> <./images//wornboh.png> <./images//gti
+mage.png>]
+<./images//021651_0.jpg, id=309, 385.44pt x 513.92pt>
+File: ./images//021651_0.jpg Graphic file (type jpg)
+<use ./images//021651_0.jpg>
+Package pdftex.def Info: ./images//021651_0.jpg  used on input line 341.
+(pdftex.def)             Requested size: 86.72377pt x 115.627pt.
+<./images//020942_0.jpg, id=310, 385.44pt x 513.92pt>
+File: ./images//020942_0.jpg Graphic file (type jpg)
+<use ./images//020942_0.jpg>
+Package pdftex.def Info: ./images//020942_0.jpg  used on input line 342.
+(pdftex.def)             Requested size: 86.72377pt x 115.627pt.
+<./images//035858_0.jpg, id=311, 385.44pt x 513.92pt>
+File: ./images//035858_0.jpg Graphic file (type jpg)
+<use ./images//035858_0.jpg>
+Package pdftex.def Info: ./images//035858_0.jpg  used on input line 343.
+(pdftex.def)             Requested size: 86.72377pt x 115.627pt.
+<./images//041678_0.jpg, id=312, 385.44pt x 513.92pt>
+File: ./images//041678_0.jpg Graphic file (type jpg)
+<use ./images//041678_0.jpg>
+Package pdftex.def Info: ./images//041678_0.jpg  used on input line 344.
+(pdftex.def)             Requested size: 86.72377pt x 115.627pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1228,36 +1431,153 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10] (main.aux)
+[14 <./images//cit_000826_0.jpg> <./images//cit_001820_0.jpg> <./images//cit_00
+2566_0.jpg> <./images//000826_0.jpg> <./images//001820_0.jpg> <./images//002566
+_0.jpg> <./images//021651_0.jpg> <./images//020942_0.jpg> <./images//035858_0.j
+pg> <./images//041678_0.jpg>]
+<./images//measures.png, id=319, 602.85225pt x 362.5545pt>
+File: ./images//measures.png Graphic file (type png)
+<use ./images//measures.png>
+Package pdftex.def Info: ./images//measures.png  used on input line 363.
+(pdftex.def)             Requested size: 426.79546pt x 256.6742pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[15 <./images//measures.png>]
+<./images//000229_0cit.jpg, id=329, 385.44pt x 513.92pt>
+File: ./images//000229_0cit.jpg Graphic file (type jpg)
+<use ./images//000229_0cit.jpg>
+Package pdftex.def Info: ./images//000229_0cit.jpg  used on input line 377.
+(pdftex.def)             Requested size: 108.405pt x 144.53964pt.
+File: ./images//cit_001820_0.jpg Graphic file (type jpg)
+<use ./images//cit_001820_0.jpg>
+Package pdftex.def Info: ./images//cit_001820_0.jpg  used on input line 377.
+(pdftex.def)             Requested size: 108.405pt x 144.53964pt.
+<./images//000380_0cit.jpg, id=330, 385.44pt x 513.92pt>
+File: ./images//000380_0cit.jpg Graphic file (type jpg)
+<use ./images//000380_0cit.jpg>
+Package pdftex.def Info: ./images//000380_0cit.jpg  used on input line 377.
+(pdftex.def)             Requested size: 108.405pt x 144.53964pt.
+<./images//000229_0sr.jpg, id=331, 1027.84pt x 1349.04pt>
+File: ./images//000229_0sr.jpg Graphic file (type jpg)
+<use ./images//000229_0sr.jpg>
+Package pdftex.def Info: ./images//000229_0sr.jpg  used on input line 378.
+(pdftex.def)             Requested size: 108.405pt x 142.2812pt.
+<./images//001820_0sr.jpg, id=332, 1027.84pt x 1349.04pt>
+File: ./images//001820_0sr.jpg Graphic file (type jpg)
+<use ./images//001820_0sr.jpg>
+Package pdftex.def Info: ./images//001820_0sr.jpg  used on input line 378.
+(pdftex.def)             Requested size: 108.405pt x 142.2812pt.
+<./images//000380_0sr.jpg, id=333, 1027.84pt x 1349.04pt>
+File: ./images//000380_0sr.jpg Graphic file (type jpg)
+<use ./images//000380_0sr.jpg>
+Package pdftex.def Info: ./images//000380_0sr.jpg  used on input line 378.
+(pdftex.def)             Requested size: 108.405pt x 142.2812pt.
+
+Overfull \hbox (64.79749pt too wide) in paragraph at lines 376--380
+ [][] 
+ []
+
+<./images//boh1.png, id=334, 177.66376pt x 239.09325pt>
+File: ./images//boh1.png Graphic file (type png)
+<use ./images//boh1.png>
+Package pdftex.def Info: ./images//boh1.png  used on input line 387.
+(pdftex.def)             Requested size: 86.72377pt x 116.71162pt.
+<./images//boh2.png, id=335, 177.66376pt x 239.09325pt>
+File: ./images//boh2.png Graphic file (type png)
+<use ./images//boh2.png>
+Package pdftex.def Info: ./images//boh2.png  used on input line 388.
+(pdftex.def)             Requested size: 86.72377pt x 116.71162pt.
+<./images//boh3.png, id=336, 178.266pt x 239.6955pt>
+File: ./images//boh3.png Graphic file (type png)
+<use ./images//boh3.png>
+Package pdftex.def Info: ./images//boh3.png  used on input line 389.
+(pdftex.def)             Requested size: 86.72377pt x 116.6106pt.
+<./images//boh4.png, id=337, 329.43076pt x 441.44925pt>
+File: ./images//boh4.png Graphic file (type png)
+<use ./images//boh4.png>
+Package pdftex.def Info: ./images//boh4.png  used on input line 390.
+(pdftex.def)             Requested size: 86.72377pt x 116.20885pt.
+<./images//boh5.png, id=338, 322.806pt x 425.79076pt>
+File: ./images//boh5.png Graphic file (type png)
+<use ./images//boh5.png>
+Package pdftex.def Info: ./images//boh5.png  used on input line 391.
+(pdftex.def)             Requested size: 86.72377pt x 114.3868pt.
+
+Overfull \hbox (66.82758pt too wide) in paragraph at lines 386--393
+ [][] 
+ []
+
+)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[16 <./images//000229_0cit.jpg> <./images//000380_0cit.jpg> <./images//000229_0
+sr.jpg> <./images//001820_0sr.jpg> <./images//000380_0sr.jpg> <./images//boh1.p
+ng> <./images//boh2.png> <./images//boh3.png> <./images//boh4.png> <./images//b
+oh5.png>] (sections/4_conclusion.tex) (main.bbl
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[17])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[18] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 65D5F313490F607C11E6D77EC729BA50;974.
+(rerunfilecheck)             Checksum: 208712466A70F445B8E4286229D4FBC9;1833.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 21359 strings out of 479799
- 406948 string characters out of 2869723
- 782099 words of memory out of 3000000
- 37851 multiletter control sequences out of 15000+200000
- 541614 words of font info for 51 fonts, out of 3000000 for 9000
+ 21534 strings out of 479799
+ 412174 string characters out of 2869723
+ 771964 words of memory out of 3000000
+ 37953 multiletter control sequences out of 15000+200000
+ 541482 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,11n,115p,1016b,944s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 94i,14n,115p,1061b,724s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\martu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1200.pk><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmcsc10.pfb><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmex10.pfb><C:/Users/martu/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/martu/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/martu/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/martu/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/
-martu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C
-:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8
-.pfb><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmsy8.pfb><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (10 pages, 496503 bytes).
+ic/amsfonts/cm/cmex10.pfb><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmmi12.pfb><C:/Users/martu/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/martu/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/martu/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/martu/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ma
+rtu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/U
+sers/martu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmsy8.pfb><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmti12.pfb><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (18 pages, 3382116 bytes).
 PDF statistics:
- 235 PDF objects out of 1000 (max. 8388607)
- 49 named destinations out of 1000 (max. 500000)
- 140 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 426 PDF objects out of 1000 (max. 8388607)
+ 80 named destinations out of 1000 (max. 500000)
+ 461 words of extra memory for PDF output out of 10000 (max. 10000000)
 

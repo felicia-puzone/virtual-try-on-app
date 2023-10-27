@@ -18,70 +18,93 @@
 \providecommand\HyField@AuxAddToCoFields[2]{}
 \providecommand \oddpage@label [2]{}
 \citation{CP-VTON}
-\citation{CP-VTON+}
 \citation{CP-VTON}
-\citation{CIT}
-\citation{dual-branch}
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{2}{section.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.1}Problem statement}{2}{subsection.1.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {1.2}Related works}{2}{subsection.1.2}\protected@file@percent }
+\citation{CIT}
+\citation{dual-branch}
 \citation{dress-code}
 \citation{stree2shop}
 \citation{wang2017clothing}
+\citation{viton}
 \citation{dress-code}
-\@writefile{toc}{\contentsline {section}{\numberline {2}Dataset and Proposed Architectures}{3}{section.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Dataset Preprocessing}{3}{subsection.2.1}\protected@file@percent }
-\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Your Pseudocode Caption\relax }}{4}{algorithm.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Our Contribution}{3}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}What did we do?}{3}{subsection.2.1}\protected@file@percent }
+\citation{CIT}
+\citation{controlnet}
+\citation{stree2shop}
 \@writefile{toc}{\contentsline {section}{\numberline {3}Pipeline and Implementation Details}{4}{section.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1}General approach}{4}{subsection.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Image Pre-Processing}{4}{subsection.3.2}\protected@file@percent }
-\citation{CP-VTON}
-\citation{li2019selfcorrection}
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Overview of the pipeline\relax }}{5}{figure.caption.2}\protected@file@percent }
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
 \newlabel{fig:general_pipeline}{{1}{5}{Overview of the pipeline\relax }{figure.caption.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Person Representation}{5}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Image Pre-Processing}{5}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1}Image Enhancing}{5}{subsubsection.3.2.1}\protected@file@percent }
+\citation{CP-VTON}
+\citation{li2019selfcorrection}
+\citation{detectron2}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2}Background Removal}{6}{subsubsection.3.2.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Background Removal \relax }}{6}{figure.caption.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Person Representation Extraction}{6}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.1}Keypoints Extraction}{6}{subsubsection.3.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Different types of reserved regions\relax }}{7}{figure.caption.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2}Body-shape Mask Extraction}{7}{subsubsection.3.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Cloth Mask Extraction}{7}{subsection.3.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Cloth Mask Extraction Pipeline\relax }}{8}{figure.caption.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Cloth Retrieval}{8}{subsection.3.5}\protected@file@percent }
 \citation{CP-VTON+}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Cloth Retrieval}{6}{subsection.3.4}\protected@file@percent }
-\@writefile{tdo}{\contentsline {todo}{inserire immagine}{6}{section*.3}\protected@file@percent }
-\pgfsyspdfmark {pgfid1}{5594039}{43333655}
-\pgfsyspdfmark {pgfid4}{35350093}{43348400}
-\pgfsyspdfmark {pgfid5}{36480589}{43079703}
-\@writefile{tdo}{\contentsline {todo}{inserire l'immagine della rete}{6}{section*.4}\protected@file@percent }
-\pgfsyspdfmark {pgfid6}{5594039}{19052567}
-\pgfsyspdfmark {pgfid9}{35350093}{19067312}
-\pgfsyspdfmark {pgfid10}{36480589}{18798615}
-\@writefile{tdo}{\contentsline {todo}{sistemare la formula}{6}{section*.5}\protected@file@percent }
-\pgfsyspdfmark {pgfid11}{5594039}{15251479}
-\pgfsyspdfmark {pgfid14}{35350093}{14661262}
-\pgfsyspdfmark {pgfid15}{36480589}{14392565}
-\@writefile{tdo}{\contentsline {todo}{in Experiments, accennare al dropout}{6}{section*.6}\protected@file@percent }
-\pgfsyspdfmark {pgfid16}{5594039}{11778071}
-\pgfsyspdfmark {pgfid19}{35350093}{10255212}
-\pgfsyspdfmark {pgfid20}{36480589}{9986515}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Data-Preprocessing and Data-Loading Adaptation}{9}{subsection.3.6}\protected@file@percent }
 \citation{CP-VTON+}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.7}Warping Module}{10}{subsection.3.7}\protected@file@percent }
 \citation{u-net}
 \citation{CIT}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Baseline Architecture Data-Preprocessing and Data-Loading Adaptation}{7}{subsection.3.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Warping}{7}{subsection.3.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.7}Generation}{8}{subsection.3.7}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Geometric Warping Module Overall Architecture\relax }}{11}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:GMM_MODULE}{{5}{11}{Geometric Warping Module Overall Architecture\relax }{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.8}Generative Module}{11}{subsection.3.8}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Try-On Module Overall Architecture\relax }}{11}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:TOM_MODULE}{{6}{11}{Try-On Module Overall Architecture\relax }{figure.caption.7}{}}
+\newlabel{fig:sub1}{{\caption@xref {fig:sub1}{ on input line 266}}{12}{Generative Module}{figure.caption.8}{}}
+\newlabel{sub@fig:sub1}{{}{12}{Generative Module}{figure.caption.8}{}}
+\newlabel{fig:sub2}{{\caption@xref {fig:sub2}{ on input line 272}}{12}{Generative Module}{figure.caption.8}{}}
+\newlabel{sub@fig:sub2}{{}{12}{Generative Module}{figure.caption.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces On the left: CIT Reasoning Block architecture, also called Interactive-Transformer II. On the right: the Transformer Encoder and Cross-Modal Transformer Encoder architetures and a legend of symbols.\relax }}{12}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:cit_architecture}{{7}{12}{On the left: CIT Reasoning Block architecture, also called Interactive-Transformer II. On the right: the Transformer Encoder and Cross-Modal Transformer Encoder architetures and a legend of symbols.\relax }{figure.caption.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.9}Training}{12}{subsection.3.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.9.1}Setup}{12}{subsubsection.3.9.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.9.2}Upper body Training}{13}{subsubsection.3.9.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces GMM Gic and Warp Losses evolution\relax }}{13}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:TOM_MODULE}{{8}{13}{GMM Gic and Warp Losses evolution\relax }{figure.caption.9}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Example of the warping stage of an in-shop cloth image over a paired person image\relax }}{13}{figure.caption.10}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Comparison between Generation with and without CIT block\relax }}{14}{table.caption.11}\protected@file@percent }
+\newlabel{tbl:table_of_figures}{{1}{14}{Comparison between Generation with and without CIT block\relax }{table.caption.11}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.9.3}Dresses Training}{14}{subsubsection.3.9.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Some examples of test Dresses generated images.\relax }}{14}{figure.caption.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.10}Cloth-Retrieval-Net Training}{14}{subsection.3.10}\protected@file@percent }
+\citation{controlnet}
+\citation{tile}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.10.1}Final Experiment Results}{15}{subsubsection.3.10.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Experimental results\relax }}{15}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:Measures}{{11}{15}{Experimental results\relax }{figure.caption.13}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.11}Post-Processing and Super-Resolution}{15}{subsection.3.11}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Comparison between generated images and generated images after Super-Resolution\relax }}{16}{table.caption.14}\protected@file@percent }
+\newlabel{tbl:table_of_figures}{{2}{16}{Comparison between generated images and generated images after Super-Resolution\relax }{table.caption.14}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Final example of VTON starting from a in-the-wild image\relax }}{16}{figure.caption.15}\protected@file@percent }
 \bibstyle{plain}
 \bibdata{references}
-\bibcite{dual-branch}{{1}{}{{}}{{}}}
-\bibcite{stree2shop}{{2}{}{{}}{{}}}
-\bibcite{li2019selfcorrection}{{3}{}{{}}{{}}}
-\bibcite{CP-VTON+}{{4}{}{{}}{{}}}
-\bibcite{dress-code}{{5}{}{{}}{{}}}
-\bibcite{CIT}{{6}{}{{}}{{}}}
-\bibcite{u-net}{{7}{}{{}}{{}}}
-\newlabel{fig:sub1}{{\caption@xref {fig:sub1}{ on input line 179}}{9}{Generation}{figure.caption.7}{}}
-\newlabel{sub@fig:sub1}{{}{9}{Generation}{figure.caption.7}{}}
-\newlabel{fig:sub2}{{\caption@xref {fig:sub2}{ on input line 185}}{9}{Generation}{figure.caption.7}{}}
-\newlabel{sub@fig:sub2}{{}{9}{Generation}{figure.caption.7}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces On the left: CIT Reasoning Block architecture, also called Interactive-Transformer II. On the right: the Transformer Encoder and Cross-Modal Transformer Encoder architetures and a legend of symbols.\relax }}{9}{figure.caption.7}\protected@file@percent }
-\newlabel{fig:cit_architecture}{{2}{9}{On the left: CIT Reasoning Block architecture, also called Interactive-Transformer II. On the right: the Transformer Encoder and Cross-Modal Transformer Encoder architetures and a legend of symbols.\relax }{figure.caption.7}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.8}Post-Processing and Super-Resolution}{9}{subsection.3.8}\protected@file@percent }
-\bibcite{CP-VTON}{{8}{}{{}}{{}}}
-\bibcite{wang2017clothing}{{9}{}{{}}{{}}}
+\bibcite{controlnet}{{1}{}{{}}{{}}}
+\bibcite{viton}{{2}{}{{}}{{}}}
+\bibcite{dual-branch}{{3}{}{{}}{{}}}
+\bibcite{stree2shop}{{4}{}{{}}{{}}}
+\bibcite{li2019selfcorrection}{{5}{}{{}}{{}}}
+\bibcite{tile}{{6}{}{{}}{{}}}
+\bibcite{CP-VTON+}{{7}{}{{}}{{}}}
+\bibcite{dress-code}{{8}{}{{}}{{}}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Conclusion}{17}{section.4}\protected@file@percent }
+\bibcite{CIT}{{9}{}{{}}{{}}}
+\bibcite{u-net}{{10}{}{{}}{{}}}
+\bibcite{CP-VTON}{{11}{}{{}}{{}}}
+\bibcite{wang2017clothing}{{12}{}{{}}{{}}}
+\bibcite{detectron2}{{13}{}{{}}{{}}}
 \providecommand\NAT@force@numbers{}\NAT@force@numbers
-\gdef \@abspage@last{10}
+\gdef \@abspage@last{18}

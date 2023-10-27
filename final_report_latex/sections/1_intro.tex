@@ -47,7 +47,6 @@ For the generative module, the classical approach is based on the U-Net architec
 Other works have employed a two-branch network, where one branch takes as input the person and the other the in-shop cloth and warping information.
 A relatively new approach applies the Transfomer-based architecture and cross-modal attention mechanisms to the inputs before feeding them to the generative network. This step allows the network to extract long-range dependencies between input person image and warped cloth, improving the generated image quality. \cite{CIT}\cite{dual-branch}. 
 
-% ??? aggiustare, non sono ancora del tutto soddisfatto
 Another line of research is trying to construct better and public datasets \cite{dress-code}:
 \begin{itemize}[noitemsep]
 \item increasing the total number of samples;
@@ -56,7 +55,6 @@ Another line of research is trying to construct better and public datasets \cite
 \end{itemize}
 
 
-% ??? dovrei inserire qualche citazione?
 Regarding the cloth retrieval task, pioneer works utilized a fixed set of attributes (color, length, material, etc...) hand-labeled or automatically extracted (such as SIFT/ORB keypoints). Then the system compares the query-item and shop-item according to a similarity metric. The overall performance was not satisfying, since perceptual methods alone are not able to capture the higher-level depencences between clothes, that have intricate pattern and not elementary shapes. In the last years, deep neural networks have been widely applied and have pushed the research into a new phase. These new methods learns a similarity metric between real-world and shop-item images from deep features representations extracted form images; an interesting example is Exact-Street-to-Shop \cite{stree2shop}. Like shown by \cite{wang2017clothing}, focusing on clothes regions and ignoring the background via a cloth parsing mechanism improves the overall performance.
 
 \hfill
