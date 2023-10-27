@@ -20,7 +20,7 @@
 \contentsline {subsubsection}{\numberline {3.9.1}Setup}{12}{subsubsection.3.9.1}%
 \contentsline {subsubsection}{\numberline {3.9.2}Upper body Training}{13}{subsubsection.3.9.2}%
 \contentsline {subsubsection}{\numberline {3.9.3}Dresses Training}{14}{subsubsection.3.9.3}%
-\contentsline {subsection}{\numberline {3.10}Cloth-Retrieval-Net Training}{14}{subsection.3.10}%
-\contentsline {subsubsection}{\numberline {3.10.1}Final Experiment Results}{15}{subsubsection.3.10.1}%
-\contentsline {subsection}{\numberline {3.11}Post-Processing and Super-Resolution}{15}{subsection.3.11}%
+\contentsline {subsubsection}{\numberline {3.9.4}Final Experiment Results}{14}{subsubsection.3.9.4}%
+\contentsline {subsection}{\numberline {3.10}Cloth-Retrieval-Net Training}{15}{subsection.3.10}%
+\contentsline {subsection}{\numberline {3.11}Post-Processing and Super-Resolution}{16}{subsection.3.11}%
 \contentsline {section}{\numberline {4}Conclusion}{17}{section.4}%

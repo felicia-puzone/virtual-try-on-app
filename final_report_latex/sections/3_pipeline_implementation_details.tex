@@ -166,22 +166,22 @@ The noise-clean desidered cloth image is fed to a sub-module that detects the cl
 	\2 save the similarity (match) score.
 \1 sort and select the $k$-best matched in-shop clothes according to the matching-score given by the network. 
 \end{outline}
+
 % ??? inserire l'immagine della rete
-As depicted in the figure..., the deep neural network we designed is composed by:
+The deep neural network we designed is composed by:
 \begin{itemize}
 	\item{a linear layer: it performs the embedding of the input tensor;}
-	\item{a transformer encoder: it performs the representation conversion of the given embedding}
+	\item{an encoder layer: it performs the representation conversion of the given embedding}
 	\item{a linear layer and softmax: it converts the output of the transformer encoder in two probability scores (matching and no-matching.}
 \end{itemize}
-The higher probability score determines the classification result of the query-feature.
+The higher probability score determines the classification result of the query-feature. We tried two different encoder layers: sequence of linear layers and transformer encoder layer, as depicted in the figure ???.
 
-To train this network, we used the cross-entropy loss.
+To train this network, we used the cross-entropy loss. More in the \ref{retrieval-training} section.
 
 
 
 \subsection{Data-Preprocessing and Data-Loading Adaptation}
-% ??? mettere link all'indiano
-In orderd to perform the virtual-try-on task we were inspired by CP-VTON+ \cite{CP-VTON+} public repository, but it was deprecated. Thankfully, we found a fixed and updated version.
+In orderd to perform the virtual-try-on task we were inspired by CP-VTON+ \cite{CP-VTON+} public repository, but it was deprecated. Thankfully, we found a fixed and updated version \cite{ARajgor}.
 
 
 Once we checked the proper functioning of the architecture on the VITON dataset we had to adapt the process of dataloading because the Dresscode dataset was different:
@@ -205,22 +205,20 @@ We also modified the Dataset class used by the dataloader, changing some file na
 We follow the warping module proposed in CP-VTON+ \cite{CP-VTON+}.
 This module transforms the input try-on garment $c$ into a warped image of the same item that matches the body pose $p$ and shape $m$. As warping function we use a thin-plate spline (TPS) geometric transformation, which is commonly used in virtual try-on models.  Inside this module, we aim to learn the correspondence between the inputs $(c, p, m)$ and the set of parameters $\theta$ to be used in the TPS transformation. Intuitively, the TPS fits a surface (try-on garmet) through points (feature regression output points) minimizing an energy function. Formally, it is a poli-harmonic spline function which maps a set of points $(x,y)$ on their correspondences $(x',y')$ sampled from input images. Under these terms, the warping module aims to learn how to perform such transformation.
 
-% ??? inserire uno schema del modulo di warping
 As depicted in figure \ref{fig:GMM_MODULE}, the module extracts an encoded representation of the try-on garment $c$ and an encoded representation of the person representation through two separate convolutional networks.
 Then, it is computed a correlation map between these representations.
 This correlation map is used to predict the spatial transformation parameters $\theta$ corresponding to the $(x,y)$-coordinate offsets of TPS anchor points. 
 
 To train this network, we used the following loss:
-% ??? completare la scrittura della loss
 \begin{equation}
 L(\theta) = \lambda_1 \cdot L_1(c_{warped}, I_{c_t}) + \lambda_{reg} \cdot L_{reg} ;
 \end{equation} 
-\begin{equation}
-L_{reg}(G_x, G_y) = \sum{i}{i}\sum{i}{i}\sum{i}{i}i ;
-\end{equation}
-
-% ??? non mi è del tutto chiaro il significato teorico della grid regularization loss
-where $L_1$ indicates the pixel-wise $L_1$-loss between the warped result $c_{warped}$ and the ground truth $c_t$. $L_{reg}$ indicates the grid regularization loss.
+where:
+\begin{itemize}[noitemsep]
+	\item{$L_1$ is the $L_1$ pixel-wise loss between the warped result and the ground truth;} 
+	\item{$L_{reg}$ is a regularization term applied to the anchor points (that represents the warping grip), in order to avoid excessive warping distortions.}
+\end{itemize}
+ 
 
 \begin{figure*}[h]
 \centering
@@ -277,13 +275,12 @@ where $\times$ represents the element-wise multiplication and $sigmoid$ indicate
 \FloatBarrier
 
 \subsection{Training}
-We performed five training steps. GMM module for upper-body and dresses, TOM module with CIT and TOM module without CIT for upper-body garments, and TOM module without CIT for dresses. We evaluated results by IoU measure for the warping step, and by SSIM, FID and MSE for the generative step.
+We performed five training steps. GMM module for upper-body and dresses garments, TOM module with CIT and TOM module without CIT for upper-body garments, and TOM module without CIT for dresses garments. We evaluated results by IoU measure for the warping step, and by SSIM, FID and MSE for the generative step.
 \subsubsection{Setup}
-In all experiments, we use $L1 = $vgg = 1. We trained GMM Modules for 315.000 steps with batch size 4. We use Adam optimizer with $\beta_1 = 0.5$ and $\beta_2 = 0.999$. 
-Learning rate is first fixed at 0.0001 for 100K steps and then linearly decays to zero for the remaining steps.
+In all experiments, we use $L1 = $vgg = 1. We trained GMM Modules for 315.000 steps batch size 4. We use Adam optimizer with $\beta_1 = 0.5$ and $\beta_2 = 0.999$. Learning rate is first fixed at 0.0001 for 100K steps and then linearly decays to zero for the remaining steps.
 
 Due to the heavy computational load of the CIT reasoning block, the upper-body generative modules were trained for 50.000 steps only. To have an idea, without CIT block one training step required about 1 second, with CIT block it required 10 seconds. Batch size and optimizer options are the same.
-We were able to supervise the training procedure through Tensorboard tool interface.
+We were able to supervise the training procedure by Tensorboard tool.
 
 \subsubsection{Upper body Training}
 
@@ -296,7 +293,6 @@ Some insight into the Geometric Matching Module.
 \label{fig:TOM_MODULE}
 \end{figure}
 
-\FloatBarrier
 \begin{figure}[h]
 \centering
 \begingroup
@@ -317,12 +313,10 @@ Some insight into the Geometric Matching Module.
 
 \caption{Example of the warping stage of an in-shop cloth image over a paired person image}
 \end{figure}
-\FloatBarrier
 
 We trained the network with 11.411 training images and tested it on 1.196 test images.
 Some comparison between CIT and baseline generated images on test-set:
 
-\FloatBarrier
 \begin{table}[h]
         \centering
         \begin{tabular}{ccccc}
@@ -332,13 +326,13 @@ Some comparison between CIT and baseline generated images on test-set:
         \caption{Comparison between Generation with and without CIT block}
         \label{tbl:table_of_figures}
 \end{table}
-\FloatBarrier
+
 
 \subsubsection{Dresses Training}
 
 Training on the Dresses category was only performed using the baseline version of the generative network to save computational time. We trained the network on 24.309 images for 200.000 steps for the warping module and 100.000 steps for the generative module, and tested it on 2.431 images.
 
-\FloatBarrier
+
 \begin{figure}[h]
 \centering
 \begin{tabular}{cccc}
@@ -350,20 +344,12 @@ Training on the Dresses category was only performed using the baseline version o
 
 \caption{Some examples of test Dresses generated images.}
 \end{figure}
-\FloatBarrier
 
-\subsection{Cloth-Retrieval-Net Training}
-To train this network, we used the cross-entropy loss, applying the dropout regularization.
-
-During training, the network tried to classify both positive examples (the paired couples of worn-cloth and cloth taken) and negative examples (not paired couples). Since the number of potential negative examples was far more than the number of positive examples, we used data augmentation to create synthetic positive examples from existing ones: we applied a multivariate gaussian noise to the feature representations.
-
-Our best trained model reached an accuracy of $0.90$ on the test set (subset of DressCode).  
 
 
 \subsubsection{Final Experiment Results}
-We computed some measures between our results and other available benchmarks from other papers. Due to the different test set and the different number of steps, a comparison between our work and other official publication results could be misleading. A fair comparison is between the two upper-body generative results, which are both trained on the same data and the same number of steps (50.000). The results show that the CIT block indeed increased the generative image performance. The measures are computed on paired image couples, but we also performed an unpaired cloth-person test set generation. Scripts can be found in the \textit{measures} folder.
+We computed some measures between our results and other available benchmarks from other papers. Due to the different test set and the different number of steps, a comparison between our work and other official publication results is misleading. The only fair comparison is between the two upper-body generative results, which are both trained on the same data and the same number of steps (50.000). The results show that the CIT block indeed increase the generative image performance. The measures are computed on paired image couples, but we also performed an unpaired cloth-person test set generation. Scripts can be found in the \textit{measures} folder.
 
-\FloatBarrier
 \begin{figure}[h]
 \centering
 \includegraphics[width=\linewidth,height=110mm,keepaspectratio]{measures}
@@ -371,14 +357,36 @@ We computed some measures between our results and other available benchmarks fro
 \label{fig:Measures}
 \end{figure}
 
-\subsection{Post-Processing and Super-Resolution}
-\FloatBarrier
 
-The final step of the pipeline consists in applying an upscaling to the generated image, to obtain both an higher resolution and a correction of some generative defects. The upscaling is done through a recently released architecture named \textit{ControlNet} \cite{controlnet}. ControlNet is a neural network structure to control diffusion models by adding extra conditions. You can choose a StableDiffusion base model, then through some text prompts and an input image, the generation is forced to follow the basic structure of the input image. There are various models trained for example to generate images from edge maps, from depth maps and so on. We chose the \textit{tile} architecture \cite{tile}, trained to perform a realistic upscaling. Our positive prompt was set to $$prompt = "best quality, clothes, garment, model, shop, upper clothes"$$ and the negative one to $$prompt = "blur, lowres, bad anatomy, bad clothes, bad hands, cropped, worst quality,$$
- $$fading, glitch, robot, tech, high saturation, fantasy"$$
+\subsection{Cloth-Retrieval-Net Training}
+\label{retrieval-training}
+
+To train this network, we used the cross-entropy loss, applying the dropout regularization technique ($p=0.1$).
+
+During training, the network tried to classify both positive examples (the paired couples of worn-cloth and cloth taken) and negative examples (not paired couples). Since the number of potential negative examples was far more the number of positive examples, we used data augmentation to creating synthetic positive examples from existing one: we applyed multivariate gaussian noise to the feature representations.
+
+We compared two architectures with similar structure:
+\begin{itemize}[noitemsep]
+	\item{fully linear architecture: it is composed only by linear layers;}
+	\item{transformer-based architecture: it is composed by linear and a transformer encoder layers.}
+\end{itemize}
+The figure \ref{fig:cloth-retrieval-results} depicts the obtained results. Furtheremore, we validate our results with human (subjective) evaluation of top-5 ranked results. A person checked the top-5 results of the retrieval for random in-the-wild pictures: if in these retrieved images there was at least an acceptable matching garment, the retrieved was considered succesfull. With a little notation abuse, we called these results \textit{Top-5 Accuracy}, depicted in the figure \ref{fig:cloth-retrieval-results}.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\linewidth,height=110mm,keepaspectratio]{retrieval_metrics}
+\caption{Cloth-retrieval results}
+\label{fig:cloth-retrieval-results}
+\end{figure}
+
+
+
+\subsection{Post-Processing and Super-Resolution}
+
+The final step of the pipeline consists in applying an upscaling to the generated image, to obtain both an higher resolution and a correction of some generative defects. The upscaling is done through a recently released architecture named \textit{ControlNet} \cite{controlnet}. ControlNet is a neural network structure to control diffusion models by adding extra conditions. You can choose a StableDiffusion base model and through some prompt an input image, the generation is forced to follow the basic structure of the input image. There are various models trained for example to generate images from edges maps, from depth maps and so on. We chose the \textit{tile} architecture \cite{tile}, trained to perform a realistic upscaling. Our positive prompt was set to $$prompt = "best quality, clothes, garment, model, shop, upper clothes"$$ and the negative one to $$prompt = "blur, lowres, bad anatomy, bad clothes, bad hands, cropped, worst quality,$$
+ $$fading, glitch, robot, tech, high saturation, medieval"$$
 The complete script is \textit{super-resolution/controlNet.py}
 
-\FloatBarrier
 \begin{table}[h]
         \centering
         \begin{tabular}{ccccc}
@@ -388,9 +396,7 @@ The complete script is \textit{super-resolution/controlNet.py}
         \caption{Comparison between generated images and generated images after Super-Resolution}
         \label{tbl:table_of_figures}
 \end{table}
-\FloatBarrier
 
-\FloatBarrier
 \begin{figure}[h]
 \centering
 \begin{tabular}{ccccc}
@@ -403,6 +409,6 @@ The complete script is \textit{super-resolution/controlNet.py}
 
 \caption{Final example of VTON starting from a in-the-wild image}
 \end{figure}
-\FloatBarrier
+
 
 

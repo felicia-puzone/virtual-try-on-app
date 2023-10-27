@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{ARajgor}
+Arajgor, cp-vton-plus.
+\newblock \url{https://github.com/ARajgor/cp-vton-plus}.
+\newblock Accessed: 27/10/2023.
+
 \bibitem{controlnet}
 Lvmin Zhang Anyi Rao~Maneesh Agrawala.
 \newblock Adding conditional control to text-to-image diffusion models.

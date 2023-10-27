@@ -33,7 +33,7 @@ One of the main goals was to make the pipeline work with in-the-wild images. For
 
 Last but not least, we performed a super-resolution upscaling based on the recently published ControlNet architecture \cite{controlnet}. This step drastically improves the quality of the final image, even because it removes some defects and artifacts, such as bad hands and glitches. We tuned both the positive and negative prompt commands  to better fit our needs. More in \textit{3.10 Post-Processing and Super-Resolution}
 
-We also implemented a retrieval module following the Exact-Street-to-Shop \cite{stree2shop} approach. The main contribution here was the introduction of a new query-feature, designed by concatenating ORB keypoints and the 256 levels histograms (for each color channel) into a 1D feature vector. Adding the histogram to the cloth image representation vector increased the accuracy of the network. Another improvement was given by the introduction of a linear embedding layer and a transformer encoder to perform a feature extraction before the prediction block. More in \textit{3.5 Cloth Retrieval}.
+We also implemented a retrieval module following the Exact-Street-to-Shop \cite{stree2shop} approach. The main contribution here was the introduction of a new query-feature, designed by concatenating ORB keypoints and the 256 levels histograms (for each color channel) into a 1D feature vector. Adding the histogram to the cloth image representation vector increased the accuracy of the network. More in \textit{3.5 Cloth Retrieval}.
 
 \hfill
 

@@ -5,44 +5,46 @@ Reallocating 'name_of_file' (item size: 1) to 6 items.
 The style file: plain.bst
 Reallocating 'name_of_file' (item size: 1) to 11 items.
 Database file #1: references.bib
-You've used 13 entries,
+Warning--to sort, need author or key in ARajgor
+You've used 14 entries,
             2118 wiz_defined-function locations,
-            565 strings with 6567 characters,
-and the built_in function-call counts, 5040 in all, are:
-= -- 453
-> -- 320
+            570 strings with 6667 characters,
+and the built_in function-call counts, 5208 in all, are:
+= -- 470
+> -- 321
 < -- 4
-+ -- 125
++ -- 126
 - -- 112
-* -- 336
-:= -- 826
-add.period$ -- 38
-call.type$ -- 13
-change.case$ -- 93
+* -- 341
+:= -- 845
+add.period$ -- 41
+call.type$ -- 14
+change.case$ -- 96
 chr.to.int$ -- 0
-cite$ -- 13
-duplicate$ -- 179
-empty$ -- 370
+cite$ -- 15
+duplicate$ -- 186
+empty$ -- 393
 format.name$ -- 112
-if$ -- 1067
+if$ -- 1109
 int.to.chr$ -- 0
-int.to.str$ -- 13
+int.to.str$ -- 14
 missing$ -- 8
-newline$ -- 66
+newline$ -- 71
 num.names$ -- 28
-pop$ -- 134
+pop$ -- 144
 preamble$ -- 1
-purify$ -- 80
+purify$ -- 82
 quote$ -- 0
-skip$ -- 148
+skip$ -- 153
 stack$ -- 0
-substring$ -- 201
-swap$ -- 58
+substring$ -- 206
+swap$ -- 59
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 52
-warning$ -- 0
+type$ -- 56
+warning$ -- 1
 while$ -- 37
-width$ -- 15
-write$ -- 134
+width$ -- 16
+write$ -- 143
+(There was 1 warning)

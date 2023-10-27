@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.3)  26 OCT 2023 20:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.3)  27 OCT 2023 15:13
 entering extended mode
 **./main.tex
 (main.tex
@@ -1243,10 +1243,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [9]
-<./images//GMM_MODULE.png, id=251, 1061.1645pt x 478.78876pt>
+<./images//GMM_MODULE.png, id=254, 1061.1645pt x 478.78876pt>
 File: ./images//GMM_MODULE.png Graphic file (type png)
 <use ./images//GMM_MODULE.png>
-Package pdftex.def Info: ./images//GMM_MODULE.png  used on input line 227.
+Package pdftex.def Info: ./images//GMM_MODULE.png  used on input line 225.
 (pdftex.def)             Requested size: 426.78993pt x 192.56413pt.
 
 
@@ -1261,10 +1261,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [10]
-<./images//TOM_MODULE.png, id=261, 957.5775pt x 436.63126pt>
+<./images//TOM_MODULE.png, id=263, 957.5775pt x 436.63126pt>
 File: ./images//TOM_MODULE.png Graphic file (type png)
 <use ./images//TOM_MODULE.png>
-Package pdftex.def Info: ./images//TOM_MODULE.png  used on input line 240.
+Package pdftex.def Info: ./images//TOM_MODULE.png  used on input line 238.
 (pdftex.def)             Requested size: 426.78546pt x 194.60344pt.
 
 
@@ -1276,17 +1276,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [11 <./images//GMM_MODULE.png> <./images//TOM_MODULE.png>]
-<./images//cit_reasoning_block.png, id=274, 766.062pt x 352.9185pt>
+<./images//cit_reasoning_block.png, id=276, 766.062pt x 352.9185pt>
 File: ./images//cit_reasoning_block.png Graphic file (type png)
 <use ./images//cit_reasoning_block.png>
 Package pdftex.def Info: ./images//cit_reasoning_block.png  used on input line 
-264.
+262.
 (pdftex.def)             Requested size: 298.75264pt x 137.63765pt.
-<./images//cit_reasoning_block_2.png, id=275, 299.9205pt x 419.76825pt>
+<./images//cit_reasoning_block_2.png, id=277, 299.9205pt x 419.76825pt>
 File: ./images//cit_reasoning_block_2.png Graphic file (type png)
 <use ./images//cit_reasoning_block_2.png>
 Package pdftex.def Info: ./images//cit_reasoning_block_2.png  used on input lin
-e 270.
+e 268.
 (pdftex.def)             Requested size: 128.0387pt x 179.20938pt.
 
 
@@ -1298,95 +1298,95 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [12 <./images//cit_reasoning_block.png> <./images//cit_reasoning_block_2.png>]
-<./images//losses.jpg, id=283, 1284.8pt x 756.8275pt>
+<./images//losses.jpg, id=285, 1284.8pt x 756.8275pt>
 File: ./images//losses.jpg Graphic file (type jpg)
 <use ./images//losses.jpg>
-Package pdftex.def Info: ./images//losses.jpg  used on input line 293.
+Package pdftex.def Info: ./images//losses.jpg  used on input line 291.
 (pdftex.def)             Requested size: 289.8125pt x 170.71767pt.
-<./images//clothw.png, id=284, 190.311pt x 254.1495pt>
+<./images//clothw.png, id=286, 190.311pt x 254.1495pt>
 File: ./images//clothw.png Graphic file (type png)
 <use ./images//clothw.png>
-Package pdftex.def Info: ./images//clothw.png  used on input line 306.
+Package pdftex.def Info: ./images//clothw.png  used on input line 304.
 (pdftex.def)             Requested size: 72.26999pt x 96.51189pt.
-<./images//clothwarp.png, id=285, 184.89075pt x 254.75175pt>
+<./images//clothwarp.png, id=287, 184.89075pt x 254.75175pt>
 File: ./images//clothwarp.png Graphic file (type png)
 <use ./images//clothwarp.png>
-Package pdftex.def Info: ./images//clothwarp.png  used on input line 307.
+Package pdftex.def Info: ./images//clothwarp.png  used on input line 305.
 (pdftex.def)             Requested size: 72.26999pt x 99.57823pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--307
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
 []\OT1/cmr/m/n/10 (b) |Warped
  []
 
-<./images//warpgt.png, id=286, 186.6975pt x 255.95625pt>
+<./images//warpgt.png, id=288, 186.6975pt x 255.95625pt>
 File: ./images//warpgt.png Graphic file (type png)
 <use ./images//warpgt.png>
-Package pdftex.def Info: ./images//warpgt.png  used on input line 308.
+Package pdftex.def Info: ./images//warpgt.png  used on input line 306.
 (pdftex.def)             Requested size: 72.26999pt x 99.08046pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 308--308
+Underfull \hbox (badness 10000) in paragraph at lines 306--306
 []\OT1/cmr/m/n/10 (c) |Ground
  []
 
-<./images//grid.png, id=287, 229.45724pt x 307.74976pt>
+<./images//grid.png, id=289, 229.45724pt x 307.74976pt>
 File: ./images//grid.png Graphic file (type png)
 <use ./images//grid.png>
-Package pdftex.def Info: ./images//grid.png  used on input line 309.
+Package pdftex.def Info: ./images//grid.png  used on input line 307.
 (pdftex.def)             Requested size: 72.26999pt x 96.92758pt.
-<./images//wornboh.png, id=288, 233.673pt x 310.761pt>
+<./images//wornboh.png, id=290, 233.673pt x 310.761pt>
 File: ./images//wornboh.png Graphic file (type png)
 <use ./images//wornboh.png>
-Package pdftex.def Info: ./images//wornboh.png  used on input line 310.
+Package pdftex.def Info: ./images//wornboh.png  used on input line 308.
 (pdftex.def)             Requested size: 72.26999pt x 96.1073pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--310
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
 []\OT1/cmr/m/n/10 (e) |Warped
  []
 
-<./images//gtimage.png, id=289, 229.45724pt x 311.36325pt>
+<./images//gtimage.png, id=291, 229.45724pt x 311.36325pt>
 File: ./images//gtimage.png Graphic file (type png)
 <use ./images//gtimage.png>
-Package pdftex.def Info: ./images//gtimage.png  used on input line 311.
+Package pdftex.def Info: ./images//gtimage.png  used on input line 309.
 (pdftex.def)             Requested size: 72.26999pt x 98.06569pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
 []\OT1/cmr/m/n/10 (f) |Ground
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
 \OT1/cmr/m/n/10 truth per-son
  []
 
-<./images//cit_000826_0.jpg, id=290, 385.44pt x 513.92pt>
+<./images//cit_000826_0.jpg, id=292, 385.44pt x 513.92pt>
 File: ./images//cit_000826_0.jpg Graphic file (type jpg)
 <use ./images//cit_000826_0.jpg>
-Package pdftex.def Info: ./images//cit_000826_0.jpg  used on input line 325.
+Package pdftex.def Info: ./images//cit_000826_0.jpg  used on input line 323.
 (pdftex.def)             Requested size: 86.72377pt x 115.627pt.
-<./images//cit_001820_0.jpg, id=291, 385.44pt x 513.92pt>
+<./images//cit_001820_0.jpg, id=293, 385.44pt x 513.92pt>
 File: ./images//cit_001820_0.jpg Graphic file (type jpg)
 <use ./images//cit_001820_0.jpg>
-Package pdftex.def Info: ./images//cit_001820_0.jpg  used on input line 325.
+Package pdftex.def Info: ./images//cit_001820_0.jpg  used on input line 323.
 (pdftex.def)             Requested size: 86.72377pt x 115.627pt.
-<./images//cit_002566_0.jpg, id=292, 385.44pt x 513.92pt>
+<./images//cit_002566_0.jpg, id=294, 385.44pt x 513.92pt>
 File: ./images//cit_002566_0.jpg Graphic file (type jpg)
 <use ./images//cit_002566_0.jpg>
-Package pdftex.def Info: ./images//cit_002566_0.jpg  used on input line 325.
+Package pdftex.def Info: ./images//cit_002566_0.jpg  used on input line 323.
 (pdftex.def)             Requested size: 86.72377pt x 115.627pt.
-<./images//000826_0.jpg, id=293, 385.44pt x 513.92pt>
+<./images//000826_0.jpg, id=295, 385.44pt x 513.92pt>
 File: ./images//000826_0.jpg Graphic file (type jpg)
 <use ./images//000826_0.jpg>
-Package pdftex.def Info: ./images//000826_0.jpg  used on input line 326.
+Package pdftex.def Info: ./images//000826_0.jpg  used on input line 324.
 (pdftex.def)             Requested size: 86.72377pt x 115.627pt.
-<./images//001820_0.jpg, id=294, 385.44pt x 513.92pt>
+<./images//001820_0.jpg, id=296, 385.44pt x 513.92pt>
 File: ./images//001820_0.jpg Graphic file (type jpg)
 <use ./images//001820_0.jpg>
-Package pdftex.def Info: ./images//001820_0.jpg  used on input line 326.
+Package pdftex.def Info: ./images//001820_0.jpg  used on input line 324.
 (pdftex.def)             Requested size: 86.72377pt x 115.627pt.
-<./images//002566_0.jpg, id=295, 385.44pt x 513.92pt>
+<./images//002566_0.jpg, id=297, 385.44pt x 513.92pt>
 File: ./images//002566_0.jpg Graphic file (type jpg)
 <use ./images//002566_0.jpg>
-Package pdftex.def Info: ./images//002566_0.jpg  used on input line 326.
+Package pdftex.def Info: ./images//002566_0.jpg  used on input line 324.
 (pdftex.def)             Requested size: 86.72377pt x 115.627pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1402,26 +1402,31 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [13 <./images//losses.jpg> <./images//clothw.png> <./images//clothwarp.png> <./
 images//warpgt.png> <./images//grid.png> <./images//wornboh.png> <./images//gti
 mage.png>]
-<./images//021651_0.jpg, id=309, 385.44pt x 513.92pt>
+<./images//021651_0.jpg, id=311, 385.44pt x 513.92pt>
 File: ./images//021651_0.jpg Graphic file (type jpg)
 <use ./images//021651_0.jpg>
-Package pdftex.def Info: ./images//021651_0.jpg  used on input line 341.
+Package pdftex.def Info: ./images//021651_0.jpg  used on input line 339.
 (pdftex.def)             Requested size: 86.72377pt x 115.627pt.
-<./images//020942_0.jpg, id=310, 385.44pt x 513.92pt>
+<./images//020942_0.jpg, id=312, 385.44pt x 513.92pt>
 File: ./images//020942_0.jpg Graphic file (type jpg)
 <use ./images//020942_0.jpg>
-Package pdftex.def Info: ./images//020942_0.jpg  used on input line 342.
+Package pdftex.def Info: ./images//020942_0.jpg  used on input line 340.
 (pdftex.def)             Requested size: 86.72377pt x 115.627pt.
-<./images//035858_0.jpg, id=311, 385.44pt x 513.92pt>
+<./images//035858_0.jpg, id=313, 385.44pt x 513.92pt>
 File: ./images//035858_0.jpg Graphic file (type jpg)
 <use ./images//035858_0.jpg>
-Package pdftex.def Info: ./images//035858_0.jpg  used on input line 343.
+Package pdftex.def Info: ./images//035858_0.jpg  used on input line 341.
 (pdftex.def)             Requested size: 86.72377pt x 115.627pt.
-<./images//041678_0.jpg, id=312, 385.44pt x 513.92pt>
+<./images//041678_0.jpg, id=314, 385.44pt x 513.92pt>
 File: ./images//041678_0.jpg Graphic file (type jpg)
 <use ./images//041678_0.jpg>
-Package pdftex.def Info: ./images//041678_0.jpg  used on input line 344.
+Package pdftex.def Info: ./images//041678_0.jpg  used on input line 342.
 (pdftex.def)             Requested size: 86.72377pt x 115.627pt.
+<./images//measures.png, id=315, 602.85225pt x 362.5545pt>
+File: ./images//measures.png Graphic file (type png)
+<use ./images//measures.png>
+Package pdftex.def Info: ./images//measures.png  used on input line 355.
+(pdftex.def)             Requested size: 426.79546pt x 256.6742pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1435,11 +1440,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 2566_0.jpg> <./images//000826_0.jpg> <./images//001820_0.jpg> <./images//002566
 _0.jpg> <./images//021651_0.jpg> <./images//020942_0.jpg> <./images//035858_0.j
 pg> <./images//041678_0.jpg>]
-<./images//measures.png, id=319, 602.85225pt x 362.5545pt>
-File: ./images//measures.png Graphic file (type png)
-<use ./images//measures.png>
-Package pdftex.def Info: ./images//measures.png  used on input line 363.
-(pdftex.def)             Requested size: 426.79546pt x 256.6742pt.
+<./images//retrieval_metrics.png, id=324, 483.60675pt x 146.34676pt>
+File: ./images//retrieval_metrics.png Graphic file (type png)
+<use ./images//retrieval_metrics.png>
+Package pdftex.def Info: ./images//retrieval_metrics.png  used on input line 37
+7.
+(pdftex.def)             Requested size: 426.8002pt x 129.15622pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1450,67 +1459,70 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [15 <./images//measures.png>]
-<./images//000229_0cit.jpg, id=329, 385.44pt x 513.92pt>
+<./images//000229_0cit.jpg, id=334, 385.44pt x 513.92pt>
 File: ./images//000229_0cit.jpg Graphic file (type jpg)
 <use ./images//000229_0cit.jpg>
-Package pdftex.def Info: ./images//000229_0cit.jpg  used on input line 377.
+Package pdftex.def Info: ./images//000229_0cit.jpg  used on input line 393.
 (pdftex.def)             Requested size: 108.405pt x 144.53964pt.
 File: ./images//cit_001820_0.jpg Graphic file (type jpg)
 <use ./images//cit_001820_0.jpg>
-Package pdftex.def Info: ./images//cit_001820_0.jpg  used on input line 377.
+Package pdftex.def Info: ./images//cit_001820_0.jpg  used on input line 393.
 (pdftex.def)             Requested size: 108.405pt x 144.53964pt.
-<./images//000380_0cit.jpg, id=330, 385.44pt x 513.92pt>
+<./images//000380_0cit.jpg, id=335, 385.44pt x 513.92pt>
 File: ./images//000380_0cit.jpg Graphic file (type jpg)
 <use ./images//000380_0cit.jpg>
-Package pdftex.def Info: ./images//000380_0cit.jpg  used on input line 377.
+Package pdftex.def Info: ./images//000380_0cit.jpg  used on input line 393.
 (pdftex.def)             Requested size: 108.405pt x 144.53964pt.
-<./images//000229_0sr.jpg, id=331, 1027.84pt x 1349.04pt>
+<./images//000229_0sr.jpg, id=336, 1027.84pt x 1349.04pt>
 File: ./images//000229_0sr.jpg Graphic file (type jpg)
 <use ./images//000229_0sr.jpg>
-Package pdftex.def Info: ./images//000229_0sr.jpg  used on input line 378.
+Package pdftex.def Info: ./images//000229_0sr.jpg  used on input line 394.
 (pdftex.def)             Requested size: 108.405pt x 142.2812pt.
-<./images//001820_0sr.jpg, id=332, 1027.84pt x 1349.04pt>
+<./images//001820_0sr.jpg, id=337, 1027.84pt x 1349.04pt>
 File: ./images//001820_0sr.jpg Graphic file (type jpg)
 <use ./images//001820_0sr.jpg>
-Package pdftex.def Info: ./images//001820_0sr.jpg  used on input line 378.
+Package pdftex.def Info: ./images//001820_0sr.jpg  used on input line 394.
 (pdftex.def)             Requested size: 108.405pt x 142.2812pt.
-<./images//000380_0sr.jpg, id=333, 1027.84pt x 1349.04pt>
+<./images//000380_0sr.jpg, id=338, 1027.84pt x 1349.04pt>
 File: ./images//000380_0sr.jpg Graphic file (type jpg)
 <use ./images//000380_0sr.jpg>
-Package pdftex.def Info: ./images//000380_0sr.jpg  used on input line 378.
+Package pdftex.def Info: ./images//000380_0sr.jpg  used on input line 394.
 (pdftex.def)             Requested size: 108.405pt x 142.2812pt.
 
-Overfull \hbox (64.79749pt too wide) in paragraph at lines 376--380
+Overfull \hbox (64.79749pt too wide) in paragraph at lines 392--396
  [][] 
  []
 
-<./images//boh1.png, id=334, 177.66376pt x 239.09325pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./images//boh1.png, id=339, 177.66376pt x 239.09325pt>
 File: ./images//boh1.png Graphic file (type png)
 <use ./images//boh1.png>
-Package pdftex.def Info: ./images//boh1.png  used on input line 387.
+Package pdftex.def Info: ./images//boh1.png  used on input line 403.
 (pdftex.def)             Requested size: 86.72377pt x 116.71162pt.
-<./images//boh2.png, id=335, 177.66376pt x 239.09325pt>
+<./images//boh2.png, id=340, 177.66376pt x 239.09325pt>
 File: ./images//boh2.png Graphic file (type png)
 <use ./images//boh2.png>
-Package pdftex.def Info: ./images//boh2.png  used on input line 388.
+Package pdftex.def Info: ./images//boh2.png  used on input line 404.
 (pdftex.def)             Requested size: 86.72377pt x 116.71162pt.
-<./images//boh3.png, id=336, 178.266pt x 239.6955pt>
+<./images//boh3.png, id=341, 178.266pt x 239.6955pt>
 File: ./images//boh3.png Graphic file (type png)
 <use ./images//boh3.png>
-Package pdftex.def Info: ./images//boh3.png  used on input line 389.
+Package pdftex.def Info: ./images//boh3.png  used on input line 405.
 (pdftex.def)             Requested size: 86.72377pt x 116.6106pt.
-<./images//boh4.png, id=337, 329.43076pt x 441.44925pt>
+<./images//boh4.png, id=342, 329.43076pt x 441.44925pt>
 File: ./images//boh4.png Graphic file (type png)
 <use ./images//boh4.png>
-Package pdftex.def Info: ./images//boh4.png  used on input line 390.
+Package pdftex.def Info: ./images//boh4.png  used on input line 406.
 (pdftex.def)             Requested size: 86.72377pt x 116.20885pt.
-<./images//boh5.png, id=338, 322.806pt x 425.79076pt>
+<./images//boh5.png, id=343, 322.806pt x 425.79076pt>
 File: ./images//boh5.png Graphic file (type png)
 <use ./images//boh5.png>
-Package pdftex.def Info: ./images//boh5.png  used on input line 391.
+Package pdftex.def Info: ./images//boh5.png  used on input line 407.
 (pdftex.def)             Requested size: 86.72377pt x 114.3868pt.
 
-Overfull \hbox (66.82758pt too wide) in paragraph at lines 386--393
+Overfull \hbox (66.82758pt too wide) in paragraph at lines 402--409
  [][] 
  []
 
@@ -1523,10 +1535,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[16 <./images//000229_0cit.jpg> <./images//000380_0cit.jpg> <./images//000229_0
-sr.jpg> <./images//001820_0sr.jpg> <./images//000380_0sr.jpg> <./images//boh1.p
-ng> <./images//boh2.png> <./images//boh3.png> <./images//boh4.png> <./images//b
-oh5.png>] (sections/4_conclusion.tex) (main.bbl
+[16 <./images//retrieval_metrics.png> <./images//boh1.png> <./images//boh2.png>
+ <./images//boh3.png> <./images//boh4.png> <./images//boh5.png>]
+(sections/4_conclusion.tex) (main.bbl
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1535,7 +1546,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[17])
+[17 <./images//000229_0cit.jpg> <./images//000380_0cit.jpg> <./images//000229_0
+sr.jpg> <./images//001820_0sr.jpg> <./images//000380_0sr.jpg>]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1544,19 +1556,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[18] (main.aux)
+[18])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[19] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 208712466A70F445B8E4286229D4FBC9;1833.
+(rerunfilecheck)             Checksum: 91166301766DE3CB36FA7F628C8D0EBC;1831.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 21534 strings out of 479799
- 412174 string characters out of 2869723
- 771964 words of memory out of 3000000
- 37953 multiletter control sequences out of 15000+200000
+ 21548 strings out of 479799
+ 412506 string characters out of 2869723
+ 772098 words of memory out of 3000000
+ 37965 multiletter control sequences out of 15000+200000
  541482 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,14n,115p,1061b,724s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1575,9 +1596,9 @@ pfb><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
 m/cmsy8.pfb><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmti12.pfb><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (18 pages, 3382116 bytes).
+Output written on main.pdf (19 pages, 3394905 bytes).
 PDF statistics:
- 426 PDF objects out of 1000 (max. 8388607)
- 80 named destinations out of 1000 (max. 500000)
- 461 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 439 PDF objects out of 1000 (max. 8388607)
+ 82 named destinations out of 1000 (max. 500000)
+ 466 words of extra memory for PDF output out of 10000 (max. 10000000)
 
