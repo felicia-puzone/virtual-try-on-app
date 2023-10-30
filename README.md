@@ -12,7 +12,7 @@ The requested checkpoints are stored in our Google Drive space:
 - [SCHP](https://drive.google.com/file/d/1-3zM2BQ64kdjtnYu8fy7gQlo41NrowIp/view?usp=drive_link)
 - [Geometric module - Upper Body](https://drive.google.com/file/d/1rU1wowreyZB2Wcq27zpopuN332cf6w9z/view?usp=drive_link)
 - [Geometric module - Dresses](https://drive.google.com/file/d/1xgKCJtUeOU8-EC0gsMvIUKgnBTYdZADG/view?usp=drive_link)
-- [Retrieval Net - Upper Body])(https://drive.google.com/file/d/1xgKCJtUeOU8-EC0gsMvIUKgnBTYdZADG/view?usp=drive_link)
+- [Retrieval Net - Upper Body](https://drive.google.com/file/d/1xgKCJtUeOU8-EC0gsMvIUKgnBTYdZADG/view?usp=drive_link)
 - [Generative Module - CPVTON+](https://drive.google.com/file/d/1-H5Ht5aIx2dkXZ5pr7sSNH-4sP4XQ52p/view?usp=drive_link)
 - [Generative Module - CIT - Dresses](https://drive.google.com/file/d/1xaXEdQCcv9nbQvp8SzoABgQOOvQFV_vv/view?usp=drive_link)
 
