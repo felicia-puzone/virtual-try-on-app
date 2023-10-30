@@ -115,8 +115,8 @@ if __name__ == "__main__":
     dataset_path = Path(args.dataset_path)
     target_mask_color = list(map(int, args.target_mask_color.split(",")))
 
-    # model = mod.SimilarityNet(in_features=cfg.IN_FEATURES, hidden_units=cfg.HIDDEN_UNITS)
-    model = mod.SimilarityTransformer(in_features=cfg.IN_FEATURES, d_model=512)
+    model = mod.SimilarityNet(in_features=cfg.IN_FEATURES, hidden_units=cfg.HIDDEN_UNITS)
+    # model = mod.SimilarityTransformer(in_features=cfg.IN_FEATURES, d_model=512)
     utils.load_model(model=model, model_path=checkpoint_path)
     model.to(cfg.DEVICE)
 

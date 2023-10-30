@@ -25,7 +25,7 @@ N_POSITIVE_EXAMPLES = N_NEGATIVE_EXAMPLES
 
 CLASS_NAMES = ['no match', 'match']
 
-MODEL_NAME_DEFAULT = "SimilarityNet_synth_data_7.pth"
+MODEL_NAME_DEFAULT = "SimilarityNet_synth_data_6.pth"
 CHECKPOINT_PATH_DEFAULT = "models/" + MODEL_NAME_DEFAULT
 
 # N_BEST_KEYPOINTS = 200
