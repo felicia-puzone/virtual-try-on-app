@@ -55,8 +55,10 @@ if __name__ == "__main__":
 
     # Create model with help from model_builder.py
     print("\nCreate model...")
-    model = model_builder.SimilarityNet(in_features=conf.IN_FEATURES, hidden_units=conf.HIDDEN_UNITS)
+    # model = model_builder.SimilarityNet(in_features=conf.IN_FEATURES, hidden_units=conf.HIDDEN_UNITS)
     # model.load_state_dict(torch.load(r"models/SimilarityNet_synth_data.pth"))
+    model = model_builder.SimilarityTransformer(in_features=conf.IN_FEATURES, d_model=512)
+    model.load_state_dict(torch.load(r"models/SimilarityNet_synth_data_6.pth"))
     model = model.to(device)
 
     # Set loss and optimizer
