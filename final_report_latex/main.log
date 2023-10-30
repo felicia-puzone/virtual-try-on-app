@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.3)  30 OCT 2023 17:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.3)  30 OCT 2023 17:59
 entering extended mode
 **./main.tex
 (main.tex
@@ -21,213 +21,31 @@ File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks15
-)
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
-fg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 105.
-
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
-))
-\Gin@req@height=\dimen139
-\Gin@req@width=\dimen140
-)
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
-Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
-Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
-
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks16
-\XKV@tempa@toks=\toks17
-)
-\XKV@depth=\count183
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
-Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
--ends (calc, etex, pgfmath)
-)
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
-Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
-
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.s
-ty
-Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
-\collectedbox=\box47
-)
-\tc@llx=\dimen141
-\tc@lly=\dimen142
-\tc@urx=\dimen143
-\tc@ury=\dimen144
-Package trimclip Info: Using driver 'tc-pdftex.def'.
-
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
-File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
-))
-\adjbox@Width=\dimen145
-\adjbox@Height=\dimen146
-\adjbox@Depth=\dimen147
-\adjbox@Totalheight=\dimen148
-\adjbox@pwidth=\dimen149
-\adjbox@pheight=\dimen150
-\adjbox@pdepth=\dimen151
-\adjbox@ptotalheight=\dimen152
-
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
-Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count184
-) (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
-Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box48
-\sift@deathcycles=\count185
-\@vwid@loff=\dimen153
-\@vwid@roff=\dimen154
-)) (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
-Package: caption 2020/10/26 v3.5g Customizing captions (AR)
-
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
-Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen155
-\captionmargin@=\dimen156
-\captionwidth=\dimen157
-\caption@tempdima=\dimen158
-\caption@indent=\dimen159
-\caption@parindent=\dimen160
-\caption@hangindent=\dimen161
-Package caption Info: Standard document class detected.
-)
-\c@caption@flags=\count186
-\c@continuedfloat=\count187
-)
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
-Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
-\c@subfigure=\count188
-\c@subtable=\count189
-) (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
-Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen162
-\ar@mcellbox=\box49
-\extrarowheight=\dimen163
-\NC@list=\toks18
-\extratabsurround=\skip49
-\backup@length=\skip50
-\ar@cellbox=\box50
-)
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.sty
-Package: placeins 2005/04/18  v 2.2
-)
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip51
-\bibsep=\skip52
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count190
-)
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/anysize\anysize.sty
-Package: anysize 1994/08/13 setting margin sizes
-
-document style option `anysize' loaded
-Michael Salzenberg, Thomas Esser, Dirk Hillbrecht
-Version 1.0, Aug 13, 1994
-\@Leftmargin=\dimen164
-\@Rightmargin=\dimen165
-\@Topmargin=\dimen166
-\@Bottommargin=\dimen167
-) (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
-Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
-
-\f@nch@headwidth=\skip53
-\f@nch@O@elh=\skip54
-\f@nch@O@erh=\skip55
-\f@nch@O@olh=\skip56
-\f@nch@O@orh=\skip57
-\f@nch@O@elf=\skip58
-\f@nch@O@erf=\skip59
-\f@nch@O@olf=\skip60
-\f@nch@O@orf=\skip61
-) (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul.sty
-Package: soul 2023-02-18 v3.0 Permit use of UTF-8 characters in soul (HO)
-
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul-ori.sty
-Package: soul-ori 2023-02-18 v3.0 letterspacing/underlining (mf)
-\SOUL@word=\toks19
-\SOUL@lasttoken=\toks20
-\SOUL@syllable=\toks21
-\SOUL@cmds=\toks22
-\SOUL@buffer=\toks23
-\SOUL@token=\toks24
-\SOUL@syllgoal=\dimen168
-\SOUL@syllwidth=\dimen169
-\SOUL@charkern=\dimen170
-\SOUL@hyphkern=\dimen171
-\SOUL@dimen=\dimen172
-\SOUL@dimeni=\dimen173
-\SOUL@minus=\count191
-\SOUL@comma=\count192
-\SOUL@apo=\count193
-\SOUL@grave=\count194
-\SOUL@spaceskip=\skip62
-\SOUL@ttwidth=\dimen174
-\SOUL@uldp=\dimen175
-\SOUL@ulht=\dimen176
-)
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
-ty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
-)))
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\dvipsnam.def
-File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-)) (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.st
-y
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
 
 (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
 (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
 .sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
+
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
 )
 (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.s
 ty
@@ -253,9 +71,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
-\@linkdim=\dimen177
-\Hy@linkcounter=\count195
-\Hy@pagecounter=\count196
+\@linkdim=\dimen139
+\Hy@linkcounter=\count183
+\Hy@pagecounter=\count184
  (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -264,7 +82,10 @@ Now handling font encoding PD1 ...
 (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count197
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count185
 Package hyperref Info: Hyper figures OFF on input line 4464.
 Package hyperref Info: Link nesting OFF on input line 4469.
 Package hyperref Info: Hyper index ON on input line 4472.
@@ -272,14 +93,13 @@ Package hyperref Info: Plain pages OFF on input line 4479.
 Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count198
-
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\c@Hy@tempcnt=\count186
+ (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5076.
-\XeTeXLinkMargin=\dimen178
+\XeTeXLinkMargin=\dimen140
 
 (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -289,9 +109,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count199
-\Field@Width=\dimen179
-\Fld@charsize=\dimen180
+\Fld@menulength=\count187
+\Field@Width=\dimen141
+\Fld@charsize=\dimen142
 Package hyperref Info: Hyper figures OFF on input line 6347.
 Package hyperref Info: Link nesting OFF on input line 6352.
 Package hyperref Info: Hyper index ON on input line 6355.
@@ -307,9 +127,9 @@ Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
 ge
 with kernel methods
 )
-\Hy@abspage=\count266
-\c@Item=\count267
-\c@Hfootnote=\count268
+\Hy@abspage=\count188
+\c@Item=\count189
+\c@Hfootnote=\count190
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
@@ -320,8 +140,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-\Fld@listcount=\count269
-\c@bookmark@seq@number=\count270
+\Fld@listcount=\count191
+\c@bookmark@seq@number=\count192
 
 (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
 echeck.sty
@@ -334,10 +154,191 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip63
+\Hy@SectionHShift=\skip49
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 39.
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
 
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen143
+\Gin@req@width=\dimen144
+)
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks16
+\XKV@tempa@toks=\toks17
+)
+\XKV@depth=\count193
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.s
+ty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box47
+)
+\tc@llx=\dimen145
+\tc@lly=\dimen146
+\tc@urx=\dimen147
+\tc@ury=\dimen148
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen149
+\adjbox@Height=\dimen150
+\adjbox@Depth=\dimen151
+\adjbox@Totalheight=\dimen152
+\adjbox@pwidth=\dimen153
+\adjbox@pheight=\dimen154
+\adjbox@pdepth=\dimen155
+\adjbox@ptotalheight=\dimen156
+
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count194
+) (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box48
+\sift@deathcycles=\count195
+\@vwid@loff=\dimen157
+\@vwid@roff=\dimen158
+)) (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen159
+\captionmargin@=\dimen160
+\captionwidth=\dimen161
+\caption@tempdima=\dimen162
+\caption@indent=\dimen163
+\caption@parindent=\dimen164
+\caption@hangindent=\dimen165
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count196
+\c@continuedfloat=\count197
+Package caption Info: hyperref package is loaded.
+)
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+\c@subfigure=\count198
+\c@subtable=\count199
+) (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen166
+\ar@mcellbox=\box49
+\extrarowheight=\dimen167
+\NC@list=\toks18
+\extratabsurround=\skip50
+\backup@length=\skip51
+\ar@cellbox=\box50
+)
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip52
+\bibsep=\skip53
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count266
+)
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/anysize\anysize.sty
+Package: anysize 1994/08/13 setting margin sizes
+
+document style option `anysize' loaded
+Michael Salzenberg, Thomas Esser, Dirk Hillbrecht
+Version 1.0, Aug 13, 1994
+\@Leftmargin=\dimen168
+\@Rightmargin=\dimen169
+\@Topmargin=\dimen170
+\@Bottommargin=\dimen171
+) (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip54
+\f@nch@O@elh=\skip55
+\f@nch@O@erh=\skip56
+\f@nch@O@olh=\skip57
+\f@nch@O@orh=\skip58
+\f@nch@O@elf=\skip59
+\f@nch@O@erf=\skip60
+\f@nch@O@olf=\skip61
+\f@nch@O@orf=\skip62
+) (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul.sty
+Package: soul 2023-02-18 v3.0 Permit use of UTF-8 characters in soul (HO)
+
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul-ori.sty
+Package: soul-ori 2023-02-18 v3.0 letterspacing/underlining (mf)
+\SOUL@word=\toks19
+\SOUL@lasttoken=\toks20
+\SOUL@syllable=\toks21
+\SOUL@cmds=\toks22
+\SOUL@buffer=\toks23
+\SOUL@token=\toks24
+\SOUL@syllgoal=\dimen172
+\SOUL@syllwidth=\dimen173
+\SOUL@charkern=\dimen174
+\SOUL@hyphkern=\dimen175
+\SOUL@dimen=\dimen176
+\SOUL@dimeni=\dimen177
+\SOUL@minus=\count267
+\SOUL@comma=\count268
+\SOUL@apo=\count269
+\SOUL@grave=\count270
+\SOUL@spaceskip=\skip63
+\SOUL@ttwidth=\dimen178
+\SOUL@uldp=\dimen179
+\SOUL@ulht=\dimen180
+))
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/graphics\dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+Package hyperref Info: Option `colorlinks' set `true' on input line 40.
 (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip64
@@ -960,36 +961,56 @@ LaTeX Warning: Label `tbl:table_of_figures' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+Package hyperref Info: Link coloring ON on input line 68.
+ (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count333
+)
+LaTeX Info: Redefining \ref on input line 68.
+LaTeX Info: Redefining \pageref on input line 68.
+LaTeX Info: Redefining \nameref on input line 68.
+ (main.out) (main.out)
+\@outlinefile=\write4
+\openout4 = `main.out'.
+
 
 (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count333
+\scratchcounter=\count334
 \scratchdimen=\dimen308
 \scratchbox=\box114
-\nofMPsegments=\count334
-\nofMParguments=\count335
+\nofMPsegments=\count335
+\nofMParguments=\count336
 \everyMPshowfont=\toks48
-\MPscratchCnt=\count336
+\MPscratchCnt=\count337
 \MPscratchDim=\dimen309
-\MPnumerator=\count337
-\makeMPintoPDFobject=\count338
+\MPnumerator=\count338
+\makeMPintoPDFobject=\count339
 \everyMPtoPDFconversion=\toks49
 )
 (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
@@ -1000,45 +1021,40 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
-Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 67.
-
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
-Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
-
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
-lestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-)
-\c@section@level=\count339
-)
-LaTeX Info: Redefining \ref on input line 67.
-LaTeX Info: Redefining \pageref on input line 67.
-LaTeX Info: Redefining \nameref on input line 67.
- (main.out) (main.out)
-\@outlinefile=\write4
-\openout4 = `main.out'.
-
 
 
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 67.
+loading the todonotes package. on input line 68.
 
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 8
-4.
+5.
 (C:\Users\martu\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 84.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 85.
 
-(abstract.tex) (sections/1_intro.tex (main.toc [1
+(abstract.tex)
+Overfull \hbox (47.87119pt too wide) in paragraph at lines 7--96
+[]\OT1/cmr/m/it/12 A com-plete demo of the pipeline can found at: [][]$\OT1/cmt
+t/m/it/12 https : / / github . com / felicia-[]puzone /
+ []
+
+
+Overfull \hbox (5.08812pt too wide) in paragraph at lines 7--96
+\OT1/cmtt/m/it/12 virtual-[]try-[]on-[]app / blob / main / Inference _ pipeline
+ _ presentation . ipynb$[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--96
+
+ []
+
+(sections/1_intro.tex (main.toc [1
 
 {C:/Users/martu/AppData/Local/MiKTeX/pdftex/config/pdftex.map}])
 \tf@toc=\write5
@@ -1072,7 +1088,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4]
-<./images//general_pipeline.jpg, id=186, 2788.4175pt x 564.1075pt>
+<./images//general_pipeline.jpg, id=189, 2788.4175pt x 564.1075pt>
 File: ./images//general_pipeline.jpg Graphic file (type jpg)
 <use ./images//general_pipeline.jpg>
 Package pdftex.def Info: ./images//general_pipeline.jpg  used on input line 26.
@@ -1088,22 +1104,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5 <./images//general_pipeline.jpg>]
-<./images//049433_0.jpg, id=193, 385.44pt x 513.92pt>
+<./images//049433_0.jpg, id=196, 385.44pt x 513.92pt>
 File: ./images//049433_0.jpg Graphic file (type jpg)
 <use ./images//049433_0.jpg>
 Package pdftex.def Info: ./images//049433_0.jpg  used on input line 57.
 (pdftex.def)             Requested size: 108.405pt x 144.53964pt.
-<./images//049433_0.png, id=194, 385.44pt x 513.92pt>
+<./images//049433_0.png, id=197, 385.44pt x 513.92pt>
 File: ./images//049433_0.png Graphic file (type png)
 <use ./images//049433_0.png>
 Package pdftex.def Info: ./images//049433_0.png  used on input line 58.
 (pdftex.def)             Requested size: 108.405pt x 144.53964pt.
-<./images//imgNoBG_0.jpg, id=195, 385.44pt x 513.92pt>
+<./images//imgNoBG_0.jpg, id=198, 385.44pt x 513.92pt>
 File: ./images//imgNoBG_0.jpg Graphic file (type jpg)
 <use ./images//imgNoBG_0.jpg>
 Package pdftex.def Info: ./images//imgNoBG_0.jpg  used on input line 59.
 (pdftex.def)             Requested size: 108.405pt x 144.53964pt.
-<./images//parse_head_warping.png, id=198, 240.9pt x 314.97675pt>
+<./images//parse_head_warping.png, id=201, 240.9pt x 314.97675pt>
 File: ./images//parse_head_warping.png Graphic file (type png)
 <use ./images//parse_head_warping.png>
 Package pdftex.def Info: ./images//parse_head_warping.png  used on input line 8
@@ -1114,12 +1130,12 @@ Underfull \hbox (badness 1226) in paragraph at lines 82--82
 []\OT1/cmr/m/n/10 (a) |GMM Mod-ule Re-
  []
 
-<./images//parseheadtom.png, id=200, 287.8755pt x 387.24675pt>
+<./images//parseheadtom.png, id=203, 287.8755pt x 387.24675pt>
 File: ./images//parseheadtom.png Graphic file (type png)
 <use ./images//parseheadtom.png>
 Package pdftex.def Info: ./images//parseheadtom.png  used on input line 83.
 (pdftex.def)             Requested size: 108.405pt x 145.82578pt.
-<./images//dress_parsehead.png, id=201, 118.64325pt x 158.39175pt>
+<./images//dress_parsehead.png, id=204, 118.64325pt x 158.39175pt>
 File: ./images//dress_parsehead.png Graphic file (type png)
 <use ./images//dress_parsehead.png>
 Package pdftex.def Info: ./images//dress_parsehead.png  used on input line 84.
@@ -1147,17 +1163,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [7 <./images//parse_head_warping.png> <./images//parseheadtom.png> <./images//d
 ress_parsehead.png>]
-<./images//image1.png, id=220, 286.06876pt x 381.22424pt>
+<./images//image1.png, id=222, 286.06876pt x 381.22424pt>
 File: ./images//image1.png Graphic file (type png)
 <use ./images//image1.png>
 Package pdftex.def Info: ./images//image1.png  used on input line 123.
 (pdftex.def)             Requested size: 72.26999pt x 96.30635pt.
-<./images//canny_edges.png, id=221, 284.86424pt x 381.22424pt>
+<./images//canny_edges.png, id=223, 284.86424pt x 381.22424pt>
 File: ./images//canny_edges.png Graphic file (type png)
 <use ./images//canny_edges.png>
 Package pdftex.def Info: ./images//canny_edges.png  used on input line 124.
 (pdftex.def)             Requested size: 72.26999pt x 96.71353pt.
-<./images//dilated_canny_edges.png, id=222, 284.262pt x 383.031pt>
+<./images//dilated_canny_edges.png, id=224, 284.262pt x 383.031pt>
 File: ./images//dilated_canny_edges.png Graphic file (type png)
 <use ./images//dilated_canny_edges.png>
 Package pdftex.def Info: ./images//dilated_canny_edges.png  used on input line 
@@ -1168,24 +1184,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--125
 []\OT1/cmr/m/n/10 (c) |Di-lated
  []
 
-<./images//failed_mask.png, id=223, 286.06876pt x 381.22424pt>
+<./images//failed_mask.png, id=225, 286.06876pt x 381.22424pt>
 File: ./images//failed_mask.png Graphic file (type png)
 <use ./images//failed_mask.png>
 Package pdftex.def Info: ./images//failed_mask.png  used on input line 126.
 (pdftex.def)             Requested size: 72.26999pt x 96.30635pt.
-<./images//sharpened_image.png, id=224, 287.27325pt x 383.63326pt>
+<./images//sharpened_image.png, id=226, 287.27325pt x 383.63326pt>
 File: ./images//sharpened_image.png Graphic file (type png)
 <use ./images//sharpened_image.png>
 Package pdftex.def Info: ./images//sharpened_image.png  used on input line 127.
 
 (pdftex.def)             Requested size: 72.26999pt x 96.511pt.
-<./images//sharpened_canny_edges.png, id=225, 287.27325pt x 381.22424pt>
+<./images//sharpened_canny_edges.png, id=227, 287.27325pt x 381.22424pt>
 File: ./images//sharpened_canny_edges.png Graphic file (type png)
 <use ./images//sharpened_canny_edges.png>
 Package pdftex.def Info: ./images//sharpened_canny_edges.png  used on input lin
 e 128.
 (pdftex.def)             Requested size: 72.26999pt x 95.90497pt.
-<./images//dilated_sharpened_canny_edges.png, id=226, 286.671pt x 385.44pt>
+<./images//dilated_sharpened_canny_edges.png, id=228, 286.671pt x 385.44pt>
 File: ./images//dilated_sharpened_canny_edges.png Graphic file (type png)
 <use ./images//dilated_sharpened_canny_edges.png>
 Package pdftex.def Info: ./images//dilated_sharpened_canny_edges.png  used on i
@@ -1201,7 +1217,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 129--129
 \OT1/cmr/m/n/10 Canny Edges
  []
 
-<./images//sharpened_mask.png, id=227, 287.27325pt x 383.63326pt>
+<./images//sharpened_mask.png, id=229, 287.27325pt x 383.63326pt>
 File: ./images//sharpened_mask.png Graphic file (type png)
 <use ./images//sharpened_mask.png>
 Package pdftex.def Info: ./images//sharpened_mask.png  used on input line 130.
@@ -1211,7 +1227,7 @@ Underfull \hbox (badness 1701) in paragraph at lines 130--130
 []\OT1/cmr/m/n/10 (h) |Mask af-ter
  []
 
-<./images//median_blur_mask.png, id=228, 289.68225pt x 385.44pt>
+<./images//median_blur_mask.png, id=230, 289.68225pt x 385.44pt>
 File: ./images//median_blur_mask.png Graphic file (type png)
 <use ./images//median_blur_mask.png>
 Package pdftex.def Info: ./images//median_blur_mask.png  used on input line 131
@@ -1234,7 +1250,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 edges.png> <./images//failed_mask.png> <./images//sharpened_image.png> <./image
 s//sharpened_canny_edges.png> <./images//dilated_sharpened_canny_edges.png> <./
 images//sharpened_mask.png> <./images//median_blur_mask.png>]
-<./images//retrieval_net_cv.jpg, id=244, 1606.0pt x 736.7525pt>
+<./images//retrieval_net_cv.jpg, id=247, 1606.0pt x 736.7525pt>
 File: ./images//retrieval_net_cv.jpg Graphic file (type jpg)
 <use ./images//retrieval_net_cv.jpg>
 Package pdftex.def Info: ./images//retrieval_net_cv.jpg  used on input line 173
@@ -1262,12 +1278,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [10 <./images//retrieval_net_cv.jpg>]
-<./images//GMM_MODULE.png, id=261, 1061.1645pt x 478.78876pt>
+<./images//GMM_MODULE.png, id=264, 1061.1645pt x 478.78876pt>
 File: ./images//GMM_MODULE.png Graphic file (type png)
 <use ./images//GMM_MODULE.png>
 Package pdftex.def Info: ./images//GMM_MODULE.png  used on input line 226.
 (pdftex.def)             Requested size: 426.78993pt x 192.56413pt.
-<./images//TOM_MODULE.png, id=262, 957.5775pt x 436.63126pt>
+<./images//TOM_MODULE.png, id=265, 957.5775pt x 436.63126pt>
 File: ./images//TOM_MODULE.png Graphic file (type png)
 <use ./images//TOM_MODULE.png>
 Package pdftex.def Info: ./images//TOM_MODULE.png  used on input line 239.
@@ -1285,13 +1301,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [11 <./images//GMM_MODULE.png>]
-<./images//cit_reasoning_block.png, id=276, 766.062pt x 352.9185pt>
+<./images//cit_reasoning_block.png, id=278, 766.062pt x 352.9185pt>
 File: ./images//cit_reasoning_block.png Graphic file (type png)
 <use ./images//cit_reasoning_block.png>
 Package pdftex.def Info: ./images//cit_reasoning_block.png  used on input line 
 263.
 (pdftex.def)             Requested size: 298.75264pt x 137.63765pt.
-<./images//cit_reasoning_block_2.png, id=277, 299.9205pt x 419.76825pt>
+<./images//cit_reasoning_block_2.png, id=279, 299.9205pt x 419.76825pt>
 File: ./images//cit_reasoning_block_2.png Graphic file (type png)
 <use ./images//cit_reasoning_block_2.png>
 Package pdftex.def Info: ./images//cit_reasoning_block_2.png  used on input lin
@@ -1310,7 +1326,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [12 <./images//TOM_MODULE.png>]
-<./images//losses.jpg, id=286, 1284.8pt x 756.8275pt>
+<./images//losses.jpg, id=289, 1284.8pt x 756.8275pt>
 File: ./images//losses.jpg Graphic file (type jpg)
 <use ./images//losses.jpg>
 Package pdftex.def Info: ./images//losses.jpg  used on input line 292.
@@ -1319,12 +1335,12 @@ Package pdftex.def Info: ./images//losses.jpg  used on input line 292.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images//clothw.png, id=287, 190.311pt x 254.1495pt>
+<./images//clothw.png, id=290, 190.311pt x 254.1495pt>
 File: ./images//clothw.png Graphic file (type png)
 <use ./images//clothw.png>
 Package pdftex.def Info: ./images//clothw.png  used on input line 305.
 (pdftex.def)             Requested size: 72.26999pt x 96.51189pt.
-<./images//clothwarp.png, id=288, 184.89075pt x 254.75175pt>
+<./images//clothwarp.png, id=291, 184.89075pt x 254.75175pt>
 File: ./images//clothwarp.png Graphic file (type png)
 <use ./images//clothwarp.png>
 Package pdftex.def Info: ./images//clothwarp.png  used on input line 306.
@@ -1334,7 +1350,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 306--306
 []\OT1/cmr/m/n/10 (b) |Warped
  []
 
-<./images//warpgt.png, id=289, 186.6975pt x 255.95625pt>
+<./images//warpgt.png, id=292, 186.6975pt x 255.95625pt>
 File: ./images//warpgt.png Graphic file (type png)
 <use ./images//warpgt.png>
 Package pdftex.def Info: ./images//warpgt.png  used on input line 307.
@@ -1344,12 +1360,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 307--307
 []\OT1/cmr/m/n/10 (c) |Ground
  []
 
-<./images//grid.png, id=290, 229.45724pt x 307.74976pt>
+<./images//grid.png, id=293, 229.45724pt x 307.74976pt>
 File: ./images//grid.png Graphic file (type png)
 <use ./images//grid.png>
 Package pdftex.def Info: ./images//grid.png  used on input line 308.
 (pdftex.def)             Requested size: 72.26999pt x 96.92758pt.
-<./images//wornboh.png, id=291, 233.673pt x 310.761pt>
+<./images//wornboh.png, id=294, 233.673pt x 310.761pt>
 File: ./images//wornboh.png Graphic file (type png)
 <use ./images//wornboh.png>
 Package pdftex.def Info: ./images//wornboh.png  used on input line 309.
@@ -1359,7 +1375,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 309--309
 []\OT1/cmr/m/n/10 (e) |Warped
  []
 
-<./images//gtimage.png, id=292, 229.45724pt x 311.36325pt>
+<./images//gtimage.png, id=295, 229.45724pt x 311.36325pt>
 File: ./images//gtimage.png Graphic file (type png)
 <use ./images//gtimage.png>
 Package pdftex.def Info: ./images//gtimage.png  used on input line 310.
@@ -1377,32 +1393,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 310--310
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images//cit_000826_0.jpg, id=293, 385.44pt x 513.92pt>
+<./images//cit_000826_0.jpg, id=296, 385.44pt x 513.92pt>
 File: ./images//cit_000826_0.jpg Graphic file (type jpg)
 <use ./images//cit_000826_0.jpg>
 Package pdftex.def Info: ./images//cit_000826_0.jpg  used on input line 324.
 (pdftex.def)             Requested size: 86.72377pt x 115.627pt.
-<./images//cit_001820_0.jpg, id=294, 385.44pt x 513.92pt>
+<./images//cit_001820_0.jpg, id=297, 385.44pt x 513.92pt>
 File: ./images//cit_001820_0.jpg Graphic file (type jpg)
 <use ./images//cit_001820_0.jpg>
 Package pdftex.def Info: ./images//cit_001820_0.jpg  used on input line 324.
 (pdftex.def)             Requested size: 86.72377pt x 115.627pt.
-<./images//cit_002566_0.jpg, id=295, 385.44pt x 513.92pt>
+<./images//cit_002566_0.jpg, id=298, 385.44pt x 513.92pt>
 File: ./images//cit_002566_0.jpg Graphic file (type jpg)
 <use ./images//cit_002566_0.jpg>
 Package pdftex.def Info: ./images//cit_002566_0.jpg  used on input line 324.
 (pdftex.def)             Requested size: 86.72377pt x 115.627pt.
-<./images//000826_0.jpg, id=296, 385.44pt x 513.92pt>
+<./images//000826_0.jpg, id=299, 385.44pt x 513.92pt>
 File: ./images//000826_0.jpg Graphic file (type jpg)
 <use ./images//000826_0.jpg>
 Package pdftex.def Info: ./images//000826_0.jpg  used on input line 325.
 (pdftex.def)             Requested size: 86.72377pt x 115.627pt.
-<./images//001820_0.jpg, id=297, 385.44pt x 513.92pt>
+<./images//001820_0.jpg, id=300, 385.44pt x 513.92pt>
 File: ./images//001820_0.jpg Graphic file (type jpg)
 <use ./images//001820_0.jpg>
 Package pdftex.def Info: ./images//001820_0.jpg  used on input line 325.
 (pdftex.def)             Requested size: 86.72377pt x 115.627pt.
-<./images//002566_0.jpg, id=298, 385.44pt x 513.92pt>
+<./images//002566_0.jpg, id=301, 385.44pt x 513.92pt>
 File: ./images//002566_0.jpg Graphic file (type jpg)
 <use ./images//002566_0.jpg>
 Package pdftex.def Info: ./images//002566_0.jpg  used on input line 325.
@@ -1419,22 +1435,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [13 <./images//cit_reasoning_block.png> <./images//cit_reasoning_block_2.png>]
-<./images//021651_0.jpg, id=306, 385.44pt x 513.92pt>
+<./images//021651_0.jpg, id=309, 385.44pt x 513.92pt>
 File: ./images//021651_0.jpg Graphic file (type jpg)
 <use ./images//021651_0.jpg>
 Package pdftex.def Info: ./images//021651_0.jpg  used on input line 340.
 (pdftex.def)             Requested size: 86.72377pt x 115.627pt.
-<./images//020942_0.jpg, id=307, 385.44pt x 513.92pt>
+<./images//020942_0.jpg, id=310, 385.44pt x 513.92pt>
 File: ./images//020942_0.jpg Graphic file (type jpg)
 <use ./images//020942_0.jpg>
 Package pdftex.def Info: ./images//020942_0.jpg  used on input line 341.
 (pdftex.def)             Requested size: 86.72377pt x 115.627pt.
-<./images//035858_0.jpg, id=308, 385.44pt x 513.92pt>
+<./images//035858_0.jpg, id=311, 385.44pt x 513.92pt>
 File: ./images//035858_0.jpg Graphic file (type jpg)
 <use ./images//035858_0.jpg>
 Package pdftex.def Info: ./images//035858_0.jpg  used on input line 342.
 (pdftex.def)             Requested size: 86.72377pt x 115.627pt.
-<./images//041678_0.jpg, id=309, 385.44pt x 513.92pt>
+<./images//041678_0.jpg, id=312, 385.44pt x 513.92pt>
 File: ./images//041678_0.jpg Graphic file (type jpg)
 <use ./images//041678_0.jpg>
 Package pdftex.def Info: ./images//041678_0.jpg  used on input line 343.
@@ -1443,7 +1459,7 @@ Package pdftex.def Info: ./images//041678_0.jpg  used on input line 343.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./images//measures.png, id=310, 602.85225pt x 362.5545pt>
+<./images//measures.png, id=313, 602.85225pt x 362.5545pt>
 File: ./images//measures.png Graphic file (type png)
 <use ./images//measures.png>
 Package pdftex.def Info: ./images//measures.png  used on input line 356.
@@ -1474,7 +1490,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 images//grid.png> <./images//wornboh.png> <./images//gtimage.png> <./images//02
 1651_0.jpg> <./images//020942_0.jpg> <./images//035858_0.jpg> <./images//041678
 _0.jpg>]
-<./images//retrieval_metrics.png, id=332, 483.60675pt x 146.34676pt>
+<./images//retrieval_metrics.png, id=335, 483.60675pt x 146.34676pt>
 File: ./images//retrieval_metrics.png Graphic file (type png)
 <use ./images//retrieval_metrics.png>
 Package pdftex.def Info: ./images//retrieval_metrics.png  used on input line 37
@@ -1490,7 +1506,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [16 <./images//measures.png> <./images//retrieval_metrics.png>]
-<./images//000229_0cit.jpg, id=342, 385.44pt x 513.92pt>
+<./images//000229_0cit.jpg, id=345, 385.44pt x 513.92pt>
 File: ./images//000229_0cit.jpg Graphic file (type jpg)
 <use ./images//000229_0cit.jpg>
 Package pdftex.def Info: ./images//000229_0cit.jpg  used on input line 394.
@@ -1499,22 +1515,22 @@ File: ./images//cit_001820_0.jpg Graphic file (type jpg)
 <use ./images//cit_001820_0.jpg>
 Package pdftex.def Info: ./images//cit_001820_0.jpg  used on input line 394.
 (pdftex.def)             Requested size: 108.405pt x 144.53964pt.
-<./images//000380_0cit.jpg, id=343, 385.44pt x 513.92pt>
+<./images//000380_0cit.jpg, id=346, 385.44pt x 513.92pt>
 File: ./images//000380_0cit.jpg Graphic file (type jpg)
 <use ./images//000380_0cit.jpg>
 Package pdftex.def Info: ./images//000380_0cit.jpg  used on input line 394.
 (pdftex.def)             Requested size: 108.405pt x 144.53964pt.
-<./images//000229_0sr.jpg, id=344, 1027.84pt x 1349.04pt>
+<./images//000229_0sr.jpg, id=347, 1027.84pt x 1349.04pt>
 File: ./images//000229_0sr.jpg Graphic file (type jpg)
 <use ./images//000229_0sr.jpg>
 Package pdftex.def Info: ./images//000229_0sr.jpg  used on input line 395.
 (pdftex.def)             Requested size: 108.405pt x 142.2812pt.
-<./images//001820_0sr.jpg, id=345, 1027.84pt x 1349.04pt>
+<./images//001820_0sr.jpg, id=348, 1027.84pt x 1349.04pt>
 File: ./images//001820_0sr.jpg Graphic file (type jpg)
 <use ./images//001820_0sr.jpg>
 Package pdftex.def Info: ./images//001820_0sr.jpg  used on input line 395.
 (pdftex.def)             Requested size: 108.405pt x 142.2812pt.
-<./images//000380_0sr.jpg, id=346, 1027.84pt x 1349.04pt>
+<./images//000380_0sr.jpg, id=349, 1027.84pt x 1349.04pt>
 File: ./images//000380_0sr.jpg Graphic file (type jpg)
 <use ./images//000380_0sr.jpg>
 Package pdftex.def Info: ./images//000380_0sr.jpg  used on input line 395.
@@ -1524,27 +1540,27 @@ Overfull \hbox (64.79749pt too wide) in paragraph at lines 393--397
  [][] 
  []
 
-<./images//boh1.png, id=347, 177.66376pt x 239.09325pt>
+<./images//boh1.png, id=350, 177.66376pt x 239.09325pt>
 File: ./images//boh1.png Graphic file (type png)
 <use ./images//boh1.png>
 Package pdftex.def Info: ./images//boh1.png  used on input line 404.
 (pdftex.def)             Requested size: 86.72377pt x 116.71162pt.
-<./images//boh2.png, id=348, 177.66376pt x 239.09325pt>
+<./images//boh2.png, id=351, 177.66376pt x 239.09325pt>
 File: ./images//boh2.png Graphic file (type png)
 <use ./images//boh2.png>
 Package pdftex.def Info: ./images//boh2.png  used on input line 405.
 (pdftex.def)             Requested size: 86.72377pt x 116.71162pt.
-<./images//boh3.png, id=349, 178.266pt x 239.6955pt>
+<./images//boh3.png, id=352, 178.266pt x 239.6955pt>
 File: ./images//boh3.png Graphic file (type png)
 <use ./images//boh3.png>
 Package pdftex.def Info: ./images//boh3.png  used on input line 406.
 (pdftex.def)             Requested size: 86.72377pt x 116.6106pt.
-<./images//boh4.png, id=350, 329.43076pt x 441.44925pt>
+<./images//boh4.png, id=353, 329.43076pt x 441.44925pt>
 File: ./images//boh4.png Graphic file (type png)
 <use ./images//boh4.png>
 Package pdftex.def Info: ./images//boh4.png  used on input line 407.
 (pdftex.def)             Requested size: 86.72377pt x 116.20885pt.
-<./images//boh5.png, id=351, 322.806pt x 425.79076pt>
+<./images//boh5.png, id=354, 322.806pt x 425.79076pt>
 File: ./images//boh5.png Graphic file (type png)
 <use ./images//boh5.png>
 Package pdftex.def Info: ./images//boh5.png  used on input line 408.
@@ -1596,31 +1612,32 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 21558 strings out of 479799
- 412715 string characters out of 2869723
- 772172 words of memory out of 3000000
- 37974 multiletter control sequences out of 15000+200000
- 541482 words of font info for 51 fonts, out of 3000000 for 9000
+ 21564 strings out of 479799
+ 412792 string characters out of 2869723
+ 774053 words of memory out of 3000000
+ 37978 multiletter control sequences out of 15000+200000
+ 541650 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,14n,115p,1061b,724s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\martu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1200.pk><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmex10.pfb><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmmi12.pfb><C:/Users/martu/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/martu/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/martu/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/martu/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ma
-rtu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/U
-sers/martu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmsy8.pfb><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmti12.pfb><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (19 pages, 3513194 bytes).
+ype1/public/amsfonts/cm/cmitt10.pfb><C:/Users/martu/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/martu/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/martu/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/martu/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/
+martu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C
+:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8
+.pfb><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb><C:/Users/martu/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmti12.pfb><C:/Users/martu/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on main.pdf (19 pages, 3520864 bytes).
 PDF statistics:
- 442 PDF objects out of 1000 (max. 8388607)
+ 448 PDF objects out of 1000 (max. 8388607)
  83 named destinations out of 1000 (max. 500000)
  471 words of extra memory for PDF output out of 10000 (max. 10000000)
 

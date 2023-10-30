@@ -9,12 +9,12 @@
 \contentsline {subsubsection}{\numberline {3.2.1}Image Enhancing}{5}{subsubsection.3.2.1}%
 \contentsline {subsubsection}{\numberline {3.2.2}Background Removal}{6}{subsubsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.3}Person Representation Extraction}{6}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Keypoints Extraction}{6}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1}Keypoints Extraction}{7}{subsubsection.3.3.1}%
 \contentsline {subsubsection}{\numberline {3.3.2}Body-shape Mask Extraction}{7}{subsubsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.4}Cloth Mask Extraction}{7}{subsection.3.4}%
 \contentsline {subsection}{\numberline {3.5}Cloth Retrieval}{8}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Data-Preprocessing and Data-Loading Adaptation}{9}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}Warping Module}{10}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.6}Data-Preprocessing and Data-Loading Adaptation}{10}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Warping Module}{11}{subsection.3.7}%
 \contentsline {subsection}{\numberline {3.8}Generative Module}{11}{subsection.3.8}%
 \contentsline {subsection}{\numberline {3.9}Training}{13}{subsection.3.9}%
 \contentsline {subsubsection}{\numberline {3.9.1}Setup}{13}{subsubsection.3.9.1}%
