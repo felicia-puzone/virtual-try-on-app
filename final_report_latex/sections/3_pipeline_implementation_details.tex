@@ -46,7 +46,6 @@ Firstly the image goes through a light adjustment procedure which entails contra
 
 then it goes through a denoising pass performed by a bilateral filter.
 
-% ??? Inserire immagini per risultato del pre-processing
 
 
 \subsubsection{Background Removal}
@@ -62,12 +61,6 @@ Given a person segmentation mask obtained by other means (see 3.3.2) we perform 
 \caption{Background Removal }
 \end{figure}
 
-% ??? inserire core del codice che esegue l'extraction
-% ??? inserire spiegazione del codice
-
-
-
-% ??? inserire citazioni necessarie
 
 
 
@@ -167,14 +160,22 @@ The noise-clean desidered cloth image is fed to a sub-module that detects the cl
 \1 sort and select the $k$-best matched in-shop clothes according to the matching-score given by the network. 
 \end{outline}
 
-% ??? inserire l'immagine della rete
 The deep neural network we designed is composed by:
 \begin{itemize}
 	\item{a linear layer: it performs the embedding of the input tensor;}
 	\item{an encoder layer: it performs the representation conversion of the given embedding}
 	\item{a linear layer and softmax: it converts the output of the transformer encoder in two probability scores (matching and no-matching.}
 \end{itemize}
-The higher probability score determines the classification result of the query-feature. We tried two different encoder layers: sequence of linear layers and transformer encoder layer, as depicted in the figure ???.
+The higher probability score determines the classification result of the query-feature. We tried two different encoder layers: sequence of linear layers and transformer encoder layer, as depicted in the figure \ref{fig:cloth-retrieval-net}.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\linewidth,height=110mm,keepaspectratio]{retrieval_net_cv}
+\caption{Transformer-based Retrieval Network.}
+\label{fig:cloth-retrieval-net}
+\end{figure}
+
+
 
 To train this network, we used the cross-entropy loss. More in the \ref{retrieval-training} section.
 
@@ -358,7 +359,7 @@ We computed some measures between our results and other available benchmarks fro
 \end{figure}
 
 
-\subsection{Cloth-Retrieval-Net Training}
+\subsubsection{Cloth-Retrieval-Net Training}
 \label{retrieval-training}
 
 To train this network, we used the cross-entropy loss, applying the dropout regularization technique ($p=0.1$).
@@ -370,7 +371,7 @@ We compared two architectures with similar structure:
 	\item{fully linear architecture: it is composed only by linear layers;}
 	\item{transformer-based architecture: it is composed by linear and a transformer encoder layers.}
 \end{itemize}
-The figure \ref{fig:cloth-retrieval-results} depicts the obtained results. Furtheremore, we validate our results with human (subjective) evaluation of top-5 ranked results. A person checked the top-5 results of the retrieval for random in-the-wild pictures: if in these retrieved images there was at least an acceptable matching garment, the retrieved was considered succesfull. With a little notation abuse, we called these results \textit{Top-5 Accuracy}, depicted in the figure \ref{fig:cloth-retrieval-results}.
+The figure \ref{fig:cloth-retrieval-results} depicts the obtained results. Furtheremore, we validate our results with human (subjective) evaluation of top-5 ranked results. A person checked the top-5 results of the retrieval for random in-the-wild pictures: if in these retrieved images there was at least an acceptable matching garment, the retrieved was considered succesfull. With a little abuse of notation, we called these results \textit{Top-5 Accuracy}, depicted in the figure \ref{fig:cloth-retrieval-results}.
 
 \begin{figure}[h]
 \centering

@@ -16,11 +16,11 @@
 \contentsline {subsection}{\numberline {3.6}Data-Preprocessing and Data-Loading Adaptation}{9}{subsection.3.6}%
 \contentsline {subsection}{\numberline {3.7}Warping Module}{10}{subsection.3.7}%
 \contentsline {subsection}{\numberline {3.8}Generative Module}{11}{subsection.3.8}%
-\contentsline {subsection}{\numberline {3.9}Training}{12}{subsection.3.9}%
-\contentsline {subsubsection}{\numberline {3.9.1}Setup}{12}{subsubsection.3.9.1}%
+\contentsline {subsection}{\numberline {3.9}Training}{13}{subsection.3.9}%
+\contentsline {subsubsection}{\numberline {3.9.1}Setup}{13}{subsubsection.3.9.1}%
 \contentsline {subsubsection}{\numberline {3.9.2}Upper body Training}{13}{subsubsection.3.9.2}%
-\contentsline {subsubsection}{\numberline {3.9.3}Dresses Training}{14}{subsubsection.3.9.3}%
+\contentsline {subsubsection}{\numberline {3.9.3}Dresses Training}{13}{subsubsection.3.9.3}%
 \contentsline {subsubsection}{\numberline {3.9.4}Final Experiment Results}{14}{subsubsection.3.9.4}%
-\contentsline {subsection}{\numberline {3.10}Cloth-Retrieval-Net Training}{15}{subsection.3.10}%
-\contentsline {subsection}{\numberline {3.11}Post-Processing and Super-Resolution}{16}{subsection.3.11}%
-\contentsline {section}{\numberline {4}Conclusion}{17}{section.4}%
+\contentsline {subsubsection}{\numberline {3.9.5}Cloth-Retrieval-Net Training}{15}{subsubsection.3.9.5}%
+\contentsline {subsection}{\numberline {3.10}Post-Processing and Super-Resolution}{16}{subsection.3.10}%
+\contentsline {section}{\numberline {4}Conclusion}{18}{section.4}%
