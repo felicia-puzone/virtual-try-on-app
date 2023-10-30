@@ -136,7 +136,7 @@ Eventually, this second-pass allowed to save about 20\% of the failed masks. The
 
 \subsection{Cloth Retrieval}
 
-The goal of this module is to match a real-world example of a garment item to the same or similar item in an online shop. We take inspiration from Exact-Street-to-Shop approach that makes two interesing points:
+The goal of this module is to match a real-world example of a garment item to the same or similar item in an online shop. We take inspiration from Exact-Street-to-Shop approach that makes two interesting points:
 \begin{itemize}[noitemsep]
 	\item mixing up the geometric/perceptual and the deep-learning works pretty well;
 	\item tackle the cloth-matching problem as a binary classification (match or not).
@@ -151,7 +151,7 @@ We built a reference repository of in-shop cloth items, using the cloth-only ima
  \1 concatenate all the channel tensors in a 1D tensor and save it.
 \end{outline}
 
-The noise-clean desidered cloth image is fed to a sub-module that detects the cloth area (as a bounding box), using SCHP. From this area is extracted a new feature representation (query-feature) following the same steps presented for the cloth-only images. Then, the comparisons are performed:
+The noise-clean desired cloth image is fed to a sub-module that detects the cloth area (as a bounding box), using SCHP. From this area is extracted a new feature representation (query-feature) following the same steps presented for the cloth-only images. Then, the comparisons are performed:
 \begin{outline}
 \1 for each in-shop cloth:
 	\2 concatenate the query-feature with the in-shop cloth feature in a 1D tensor;
@@ -164,7 +164,7 @@ The deep neural network we designed is composed by:
 \begin{itemize}
 	\item{a linear layer: it performs the embedding of the input tensor;}
 	\item{an encoder layer: it performs the representation conversion of the given embedding}
-	\item{a linear layer and softmax: it converts the output of the transformer encoder in two probability scores (matching and no-matching.}
+	\item{a linear layer and softmax: it converts the output of the transformer encoder in two probability scores (matching and no-matching).}
 \end{itemize}
 The higher probability score determines the classification result of the query-feature. We tried two different encoder layers: sequence of linear layers and transformer encoder layer, as depicted in the figure \ref{fig:cloth-retrieval-net}.
 
@@ -364,14 +364,14 @@ We computed some measures between our results and other available benchmarks fro
 
 To train this network, we used the cross-entropy loss, applying the dropout regularization technique ($p=0.1$).
 
-During training, the network tried to classify both positive examples (the paired couples of worn-cloth and cloth taken) and negative examples (not paired couples). Since the number of potential negative examples was far more the number of positive examples, we used data augmentation to creating synthetic positive examples from existing one: we applyed multivariate gaussian noise to the feature representations.
+During training, the network tried to classify both positive examples (the paired couples of worn-cloth and cloth taken) and negative examples (not paired couples). Since the number of potential negative examples was far more the number of positive examples, we used data augmentation to create synthetic positive examples from existing ones: we applied multivariate gaussian noise to the feature representations.
 
 We compared two architectures with similar structure:
 \begin{itemize}[noitemsep]
 	\item{fully linear architecture: it is composed only by linear layers;}
 	\item{transformer-based architecture: it is composed by linear and a transformer encoder layers.}
 \end{itemize}
-The figure \ref{fig:cloth-retrieval-results} depicts the obtained results. Furtheremore, we validate our results with human (subjective) evaluation of top-5 ranked results. A person checked the top-5 results of the retrieval for random in-the-wild pictures: if in these retrieved images there was at least an acceptable matching garment, the retrieved was considered succesfull. With a little abuse of notation, we called these results \textit{Top-5 Accuracy}, depicted in the figure \ref{fig:cloth-retrieval-results}.
+The figure \ref{fig:cloth-retrieval-results} depicts the obtained results. Furthermore, we validate our results with human (subjective) evaluation of top-5 ranked results. A person checked the top-5 results of than retrieval for random in-the-wild pictures: if in these retrieved images there was at least an acceptable matching garment, the retrieved was considered succesful. With a little abuse of notation, we called these results \textit{Top-5 Accuracy}, depicted in the figure \ref{fig:cloth-retrieval-results}.
 
 \begin{figure}[h]
 \centering
